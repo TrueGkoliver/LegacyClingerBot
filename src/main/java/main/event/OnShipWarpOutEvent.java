@@ -1,6 +1,7 @@
 package main.event;
 
 public class OnShipWarpOutEvent implements IEvent {
+    //TODO fix this
     public final Object ship;
     public OnShipWarpOutEvent(Object shipIn) {
         this.ship = shipIn;
