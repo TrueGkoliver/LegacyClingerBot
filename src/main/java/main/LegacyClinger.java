@@ -14,6 +14,7 @@ import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import util.GameCommands;
 import util.ICommand;
 import util.LegacyClingCmd;
+import util.SecretInfo;
 import util.StringedCmd;
 
 public class LegacyClinger extends ListenerAdapter{
