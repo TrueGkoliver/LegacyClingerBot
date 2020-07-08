@@ -1,5 +1,5 @@
 package main;
 
 public class SecretInfo {
-    static String token = "NzA5OTAzNTM4NDg1OTg1MzAw.Xt0lqg.YUtL6OkXgR9lLgX-hISmoDc_NHo";
+    //Haha, gotcha! You thought that this would be where secret stuff was. It used to be, but now it's not!
 }
