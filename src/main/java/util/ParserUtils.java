@@ -33,7 +33,7 @@ public class ParserUtils {
 			JSONParser jsonParser = new JSONParser();
 			JSONArray array = (JSONArray) jsonParser.parse(reader);
 			System.out.println(array);
-			if (!array.contains(user.getId())) {
+			if (array.contains(user.getId())) {
 				return true;
 			}
 		} catch (Exception e) {

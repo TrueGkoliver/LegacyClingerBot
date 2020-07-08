@@ -49,8 +49,6 @@ public class GameCommands {
 				} catch (IOException | ParseException e1) {
 					e1.printStackTrace();
 				}
-				System.out.println("This is the ID");
-				System.out.println(id);
 				JSONObject obj = new JSONObject();
 				obj.put("name", empirename);
 				obj.put("govid", Integer.valueOf(args[1]));
@@ -323,7 +321,7 @@ public class GameCommands {
 			if (!args[0].equals(this.id)) {
 				return;
 			}
-			if (ParserUtils.getCheats(event.getAuthor())) {
+			if (!ParserUtils.getCheats(event.getAuthor())) {
 				event.getChannel().sendMessage("You do not have cheat mode!").queue();
 				return;
 			}
@@ -335,6 +333,36 @@ public class GameCommands {
 		@Override
 		public String getId() {
 			return "=createplanet";
+		}
+	}
+
+	public static class GetPlanetIdsCommand extends StringedCmd {
+
+		public GetPlanetIdsCommand() {
+			super("=planetClasses");
+		}
+
+		@Override
+		public void onMessage(MessageReceivedEvent event) {
+			String[] args = event.getMessage().getContentDisplay().split("\\s");
+			if (!args[0].equals(this.id)) {
+				return;
+			}
+			String letsGetRegex = "**ID of Planet Classes**\n";
+			for (int i=0; i<GamePlanets.PLANET_CLASSES.size(); i++) {
+				PlanetClass classIn = GamePlanets.PLANET_CLASSES.get(i);
+				letsGetRegex+=String.valueOf(i)+": "+classIn.getName()+"\n";
+				if (letsGetRegex.length()>=1800) {
+					event.getChannel().sendMessage(letsGetRegex).queue();
+					letsGetRegex = "";
+				}
+			}
+			event.getChannel().sendMessage(letsGetRegex).queue();
+		}
+
+		@Override
+		public String getId() {
+			return "=planetClasses";
 		}
 	}
 	

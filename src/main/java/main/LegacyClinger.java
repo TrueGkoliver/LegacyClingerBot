@@ -28,6 +28,7 @@ public class LegacyClinger extends ListenerAdapter{
 	private static GameCommands.CheckWorlds checkWorldsCommand;
 	private static GameCommands.NameWorlds nameWorldsCommand;
 	private static GameCommands.CreatePlanetCommand createPlanetCommand;
+	private static GameCommands.GetPlanetIdsCommand getPlanetIdsCommand;
 	
 
 	public static JDA jda = null;
@@ -59,6 +60,7 @@ public class LegacyClinger extends ListenerAdapter{
 		checkWorldsCommand = new GameCommands.CheckWorlds();
 		nameWorldsCommand = new GameCommands.NameWorlds();
 		createPlanetCommand = new GameCommands.CreatePlanetCommand();
+		getPlanetIdsCommand = new GameCommands.GetPlanetIdsCommand();
 	}
 	@Override
 	public void onReady(ReadyEvent event) {
@@ -70,7 +72,6 @@ public class LegacyClinger extends ListenerAdapter{
 			return;
 		}
 		if (!event.getAuthor().isBot()) {
-			System.out.println(event.getMessage().getContentDisplay());
 			for (ICommand command : commands) {
 				command.onMessage(event);
 			}
