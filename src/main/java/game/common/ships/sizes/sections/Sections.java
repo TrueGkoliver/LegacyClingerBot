@@ -3,6 +3,7 @@ package game.common.ships.sizes.sections;
 import java.util.HashMap;
 
 import game.common.ships.weapons.SlotType;
+import util.DoubleSet;
 
 public class Sections {
 	public static class SlotMix {
@@ -165,11 +166,35 @@ public class Sections {
 	public static final HashMap<SlotType, Integer> S_ECR3_PD_L3 = generateSection(join(SlotType.ST_PD, 12));
 
 	//Escort Carrier: Front
-	
+	public static final HashMap<SlotType, Integer> S_ECA1_BROADSIDE = DoubleSet.generate(
+		new DoubleSet<SlotType>(SlotType.ST_GUN_S, 2),
+		new DoubleSet<SlotType>(SlotType.ST_GUN_M, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_ECA1_MISSILE = DoubleSet.generate(
+		new DoubleSet<SlotType>(SlotType.ST_TORPEDO, 2)
+	);
 	//Escort Carrier: Mids
-	
+	public static final HashMap<SlotType, Integer> S_ECA2_CARRIER = DoubleSet.generate(
+		new DoubleSet<SlotType>(SlotType.ST_PD, 2),
+		new DoubleSet<SlotType>(SlotType.ST_HANGAR, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_ECA2_INVASION = DoubleSet.generate(
+			new DoubleSet<SlotType>(SlotType.ST_PD, 2),
+			new DoubleSet<SlotType>(SlotType.ST_GUN_L, 1)
+	);
 	//Escort Carrier: End
-	
+	public static final HashMap<SlotType, Integer> S_ECA3_BROADSIDE = DoubleSet.generate(
+		new DoubleSet<SlotType>(SlotType.ST_GUN_M, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_ECA3_MISSILE = DoubleSet.generate(
+			new DoubleSet<SlotType>(SlotType.ST_TORPEDO, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_ECA3_SPITFIRE = DoubleSet.generate(
+			new DoubleSet<SlotType>(SlotType.ST_GUN_S, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_ECA3_POINT_DEFENSE = DoubleSet.generate(
+			new DoubleSet<SlotType>(SlotType.ST_PD, 2)
+	);
 	
 	
 	

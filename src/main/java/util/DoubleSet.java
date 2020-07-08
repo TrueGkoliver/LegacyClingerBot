@@ -2,6 +2,10 @@ package util;
 
 import java.util.HashMap;
 
+/**
+ * This is a generic thing used for easier production of HashMaps.
+ * @param <T> The type. Can be a slottype, a resource, or any other similar thing.
+ */
 public class DoubleSet<T> {
     public int amt;
     T type;
