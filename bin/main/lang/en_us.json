@@ -1,0 +1,15 @@
+{
+	"food" : "Food",
+	"minerals" : "Minerals",
+	"alloys" : "Alloys",
+	"energy" : "Energy",
+	"consumer_goods" : "Consumer Goods",
+	"research" : "Research",
+	"exotic_gases" : "Exotic Gases",
+	"rare_crystals" : "Rare Crystals",
+	"volatile_motes" : "Volatile Motes",
+	"zro" : "Zro",
+	"dark_matter" : "Dark Matter",
+	"living_metal" : "Living Metal",
+	"nanites" : "Nanites"	
+}
