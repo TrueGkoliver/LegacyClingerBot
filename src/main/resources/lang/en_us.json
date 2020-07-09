@@ -11,5 +11,87 @@
 	"zro" : "Zro",
 	"dark_matter" : "Dark Matter",
 	"living_metal" : "Living Metal",
-	"nanites" : "Nanites"	
+	"nanites" : "Nanites",
+	"section" : "This is a comment. The following is district sections.",
+
+	"general/housing" : "City District",
+	"general/farming" : "Farming District",
+	"general/generator" : "Generator District",
+	"general/mining" : "Mining District",
+
+	"ringworld/housing" : "Ringworld Housing Segment",
+	"ringworld/research" : "Ringworld Research Segment",
+	"ringworld/generator" : "Ringworld Generator Segment",
+	"ringworld/farming" : "Ringworld Farming Segment",
+	"ringworld/commercial" : "Ringworld Commercial Segment",
+
+	"arcology/housing" : "Ecumneopolis Housing District",
+	"arcology/foundry" : "Ecumneopolis Foundry District",
+	"arcology/industrial" : "Ecumneopolis Industrial District",
+	"arcology/leisure" : "Ecumneopolis Leisure District",
+
+	"habitat/housing" : "Habitat Housing District",
+	"habitat/trade" : "Habitat Trade District",
+	"habitat/leisure" : "Habitat Leisure District",
+	"habitat/astro_mining" : "Habitat Astro-Mining District",
+	"habitat/reactor" : "Habitat Reactor District",
+	"habitat/research" : "Habitat Research District",
+
+	"virtual/industrial/alloys" : "Virtual Foundry Matrix",
+	"virtual/industrial/rare" : "Virtual Rare Mineral Matrix",
+	"virtual/industrial/minerals" : "Virtual Mining Optimization Matrix",
+	"virtual/industrial/energy" : "Virtual Energy Collection Matrix",
+
+	"virtual/research/science" : "Virtual Computing Complexes",
+	"virtual/research/shipyard" : "Virtual Military Computing Complexes",
+
+	"virtual/sim/housing" : "Virtual Housing District",
+	"virtual/sim/unity" : "Virtual Unity District",
+	"virtual/sim/consumer_goods" : "Virtual Industrial Optimization Complexes",
+
+	"alderson/gaia/city" : "Alderson City Segment",
+	"alderson/gaia/generator" : "Alderson Generator Segment",
+	"alderson/gaia/farm" : "Alderson Farming Segment",
+	"alderson/gaia/mining" : "Alderson Mining Segment",
+
+	"alderson/plancomputer/base" : "Alderson Computing Complex",
+	"alderson/plancomputer/admin" : "Alderson Administration Complex",
+
+	"alderson/ecumneopolis/housing" : "Alderson Ecumneopolis Housing District",
+	"alderson/ecumneopolis/arms_industry" : "Alderson Foundry District",
+	"alderson/ecumneopolis/civilian_industry" : "Alderson Industry District",
+	"alderson/ecumneopolis/leisure" : "Alderson Leisure District",
+
+	"squareworld/farm" : "Squareworld Farming District",
+	"squareworld/alloys" : "Squareworld Foundry District",
+
+	"mega_shipyard/energy" : "Mega Shipyard Solar Panels",
+	"mega_shipyard/alloys" : "Mega Shipyard Foundry",
+
+	"plancomputer/base" : "Planetary Computing District",
+	"plancomputer/admin" : "Planetary Computing Administrative District",
+
+	"penrose/lab" : "Penrose Ringworld Laboratory",
+	"penrose/generator" : "Penrose Ringworld Generator District",
+	"penrose/farming" : "Penrose Ringworld Farming District",
+
+	"ih_ringworld/alloys" : "Interstellar Ringworld Foundries",
+	"ih_ringworld/generator" : "Interstellar Ringworld Generators",
+	"ih_ringworld/lab" : "Interstellar Ringworld Laboratory",
+	"ih_ringworld/housing" : "Interstellar Ringworld Cities",
+
+	"ih/lab" : "Interstellar Laboratories",
+	"ih/scavenger" : "Interstellar Mining Facilities",
+
+	"gg/lab" : "Gas Giant Laboratories",
+	"gg/generator" : "Gas Giant Generator District",
+
+	"elysium/preserve" : "Orbital Elysium Nature Preserves",
+	"elysium/leisure" : "Orbital Elysium Leisure Segment",
+	"elysium/energy" : "Orbital Elysium Solar Power Segment",
+
+	"bw/structure" : "Birch World Structure Segment",
+	"bw/extraction" : "Extraction Insula",
+	"bw/ecumneopolis" : "Ecumneopolis Insula",
+	"bw/preserve" : "Nature Insula"
 }

@@ -3,8 +3,8 @@ package game.common.planets.districts;
 public class Districts {
 	public static final District HOUSING = new District("general/housing", null, 5);
 	public static final District FARMING = new District("general/farming", null, 2);
-	public static final District GENERATOR = new District("general/farming", null, 2);
-	public static final District MINING = new District("general/farming", null, 2);
+	public static final District GENERATOR = new District("general/generator", null, 2);
+	public static final District MINING = new District("general/mining", null, 2);
 	public static final DistrictSet DEFAULT = new DistrictSet(HOUSING, FARMING, GENERATOR, MINING);
 	
 	public static final District RINGWORLD_HOUSING = new District("ringworld/housing", null, 50);
@@ -69,49 +69,49 @@ public class Districts {
 	public static final DistrictSet SQUAREWORLD = DistrictSet.add(RINGWORLD, new DistrictSet(SQUAREWORLD_ALLOYS));
 	
 	//Mega Shipyard
-	public static final District SHIPYARD_ENERGY = new District("", null, 2);
-	public static final District SHIPYARD_ALLOYS = new District("", null, 2);
+	public static final District SHIPYARD_ENERGY = new District("mega_shipyard/energy", null, 2);
+	public static final District SHIPYARD_ALLOYS = new District("mega_shipyard/alloys", null, 2);
 	public static final DistrictSet MEGA_SHIPYARD = new DistrictSet(SHIPYARD_ENERGY, SHIPYARD_ALLOYS);
 	
 	//Planetary Computer
-	public static final District PLANETARY_COMPUTER_BASE = new District("", null, 2);
-	public static final District PLANETARY_COMPUTER_ADMIN = new District("", null, 8);
+	public static final District PLANETARY_COMPUTER_BASE = new District("plancomputer/base", null, 2);
+	public static final District PLANETARY_COMPUTER_ADMIN = new District("plancomputer/admin", null, 8);
 	public static final DistrictSet PLANETARY_COMPUTER = new DistrictSet(PLANETARY_COMPUTER_BASE, PLANETARY_COMPUTER_ADMIN);
 	
 	//Penrose Ringworld
-	public static final District PENROSE_LAB = new District("", null, 10);
-	public static final District PENROSE_GENERATOR = new District("", null, 20);
-	public static final District PENROSE_FARMING = new District("", null, 20);
+	public static final District PENROSE_LAB = new District("penrose/lab", null, 10);
+	public static final District PENROSE_GENERATOR = new District("penrose/generator", null, 20);
+	public static final District PENROSE_FARMING = new District("penrose/farming", null, 20);
 	public static final DistrictSet PENROSE = new DistrictSet(PENROSE_LAB, PENROSE_GENERATOR, PENROSE_FARMING);
 	
 	//Interstellar Habitat Ringworld
-	public static final District IHR_ALLOYS = new District("", null, 10);
-	public static final District IHR_GENERATOR = new District("", null, 10);
-	public static final District IHR_LAB = new District("", null, 20);
-	public static final District IHR_HOUSING = new District("", null, 50);
+	public static final District IHR_ALLOYS = new District("ih_ringworld/alloys", null, 10);
+	public static final District IHR_GENERATOR = new District("ih_ringworld/generator", null, 10);
+	public static final District IHR_LAB = new District("ih_ringworld/lab", null, 20);
+	public static final District IHR_HOUSING = new District("ih_ringworld/housing", null, 50);
 	public static final DistrictSet INTERSTELLAR_HABITAT_RINGWORLD = new DistrictSet(IHR_ALLOYS, IHR_GENERATOR, IHR_LAB, IHR_HOUSING);
 	
 	//Interstellar Habitat
-	public static final District IH_LAB = new District("", null, 4);
-	public static final District IH_SCAVENGER = new District("", null, 0);
+	public static final District IH_LAB = new District("ih/lab", null, 4);
+	public static final District IH_SCAVENGER = new District("ih/scavenger", null, 0);
 	public static final DistrictSet INTERSTELLAR_HABITAT = DistrictSet.add(HABITAT, new DistrictSet(IH_LAB, IH_SCAVENGER));
 	
 	//Gas Giant Habitat
-	public static final District GG_LAB = new District("", null, 0);
-	public static final District GG_GENERATOR = new District("", null, 4);
+	public static final District GG_LAB = new District("gg/lab", null, 0);
+	public static final District GG_GENERATOR = new District("gg/generator", null, 4);
 	public static final DistrictSet GAS_GIANT_HABITAT = new DistrictSet(GG_LAB, GG_GENERATOR);
 	
 	//Orbital Elysium
-	public static final District ELYSIUM_PRESERVE = new District("", null, 0);
-	public static final District ELYSIUM_LEISURE = new District("", null, 0);
-	public static final District ELYSIUM_ENERGY = new District("", null, 0);
+	public static final District ELYSIUM_PRESERVE = new District("elysium/preserve", null, 0);
+	public static final District ELYSIUM_LEISURE = new District("elysium/leisure", null, 0);
+	public static final District ELYSIUM_ENERGY = new District("elysium/energy", null, 0);
 	public static final DistrictSet ORBITAL_ELYSIUM = new DistrictSet(ELYSIUM_PRESERVE, ELYSIUM_LEISURE, ELYSIUM_ENERGY);
 	
 	//Birch World Insulae
-	public static final District BW_STRUCTURE_INSULA = new District("", null, 0);
-	public static final District BW_EXTRACTION_INSULA = new District("", null, 0);
-	public static final District BW_ECUMNEOPOLIS_INSULA = new District("", null, 150);
-	public static final District BW_PRESERVE_INSULA = new District("", null, 100);
+	public static final District BW_STRUCTURE_INSULA = new District("bw/structure", null, 0);
+	public static final District BW_EXTRACTION_INSULA = new District("bw/extraction", null, 0);
+	public static final District BW_ECUMNEOPOLIS_INSULA = new District("bw/ecumneopolis", null, 150);
+	public static final District BW_PRESERVE_INSULA = new District("bw/preserve", null, 100);
 	public static final DistrictSet BIRCH_WORLD = new DistrictSet(BW_STRUCTURE_INSULA, BW_EXTRACTION_INSULA, BW_ECUMNEOPOLIS_INSULA, BW_PRESERVE_INSULA);
 	
 }

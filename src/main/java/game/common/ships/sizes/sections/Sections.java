@@ -13,6 +13,7 @@ public class Sections {
 	private static SlotType H = SlotType.ST_HANGAR;
 	private static SlotType P = SlotType.ST_PD;
 	private static SlotType X = SlotType.ST_GUN_XL;
+	private static SlotType T = SlotType.ST_TITAN;
 	private static SlotType W = SlotType.ST_COLOSSUS;
 	public static class SlotMix {
 		SlotType type;
@@ -533,6 +534,39 @@ public class Sections {
 	);
 	public static final HashMap<SlotType, Integer> S_DRD3_MISSILE = DoubleSet.generate(
 		make(G, 4)
+	);
+
+	//Titan
+	public static final HashMap<SlotType, Integer> S_TAN1_DELTA_A = DoubleSet.generate(
+		make(T, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_TAN1_DELTA_B = DoubleSet.generate(
+		make(X, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_TAN1_DELTA_C = DoubleSet.generate(
+		make(H, 2),
+		make(X, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_TAN1_NOVA = DoubleSet.generate(
+		make(T, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_TAN1_ANNIHILATOR = DoubleSet.generate(
+		make(X, 3)
+	);
+
+	public static final HashMap<SlotType, Integer> S_TAN2_DELTA_A = DoubleSet.generate(
+		make(L, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_TAN2_DELTA_B = DoubleSet.generate(
+		make(G, 8)
+	);
+	public static final HashMap<SlotType, Integer> S_TAN2_DELTA_C = DoubleSet.generate(
+		make(P, 4),
+		make(H, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_TAN2_DELTA_D = DoubleSet.generate(
+		make(P, 2),
+		make(X, 2)
 	);
 
 }

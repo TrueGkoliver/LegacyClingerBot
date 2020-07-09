@@ -1,5 +1,5 @@
 package game.common.resources;
-
+@SuppressWarnings("unused")
 public class Resources {
 	public static final Resource FOOD = new Resource("food");
 	public static final Resource MINERALS = new Resource("minerals");
