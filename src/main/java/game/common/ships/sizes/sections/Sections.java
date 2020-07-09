@@ -12,6 +12,7 @@ public class Sections {
 	private static SlotType G = SlotType.ST_TORPEDO;
 	private static SlotType H = SlotType.ST_HANGAR;
 	private static SlotType P = SlotType.ST_PD;
+	private static SlotType X = SlotType.ST_GUN_XL;
 	private static SlotType W = SlotType.ST_COLOSSUS;
 	public static class SlotMix {
 		SlotType type;
@@ -296,4 +297,96 @@ public class Sections {
 		make(SlotType.ST_GUN_S, 8),
 		make(SlotType.ST_GUN_L, 2)
 	);
+
+	public static final HashMap<SlotType, Integer> S_BSP2_DELTA_A = DoubleSet.generate(
+		make(SlotType.ST_GUN_M, 2),
+		make(SlotType.ST_GUN_L, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP2_DELTA_B = DoubleSet.generate(
+		make(L, 3)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP2_DELTA_C = DoubleSet.generate(
+		make(H, 1),
+		make(G, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP2_DELTA_D = DoubleSet.generate(
+		make(P, 4),
+		make(H, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP2_DELTA_E = DoubleSet.generate(
+		make(M, 2),
+		make(X, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP2_ARTILLERY1 = DoubleSet.generate(
+		make(L, 3)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP2_HANGAR = DoubleSet.generate(
+		make(M, 4),
+		make(H, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP2_CARRIER = DoubleSet.generate(
+		make(P, 2),
+		make(S, 2),
+		make(H, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP2_BROADSIDE1 = DoubleSet.generate(
+		make(M, 2),
+		make(L, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP2_BOMBARDMENT = DoubleSet.generate(
+		make(M, 3),
+		make(L, 3)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP2_ARTILLERY2 = DoubleSet.generate(
+		make(L, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP2_BROADSIDE2 = DoubleSet.generate(
+		make(M, 6),
+		make(L, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP2_CARRONADE = DoubleSet.generate(
+		make(S, 5),
+		make(L, 3)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP2_SPITFIRE = DoubleSet.generate(
+		make(P, 1),
+		make(S, 8),
+		make(L, 2)
+	);
+
+	public static final HashMap<SlotType, Integer> S_BSP3_DELTA_A = DoubleSet.generate(
+		make(L, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP3_DELTA_B = DoubleSet.generate(
+		make(G, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP3_DELTA_C = DoubleSet.generate(
+		make(H, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP3_DELTA_D = DoubleSet.generate(
+		make(X, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP3_ARTILLERY1 = DoubleSet.generate(
+		make(L, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP3_BROADSIDE1 = DoubleSet.generate(
+		make(M, 8)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP3_VOLLEY1 = DoubleSet.generate(
+		make(S, 6),
+		make(M, 6)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP3_BROADSIDE = DoubleSet.generate(
+		make(M, 6)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP3_VOLLEY2 = DoubleSet.generate(
+		make(P, 2),
+		make(S, 4),
+		make(M, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP3_MISSILE = DoubleSet.generate(
+		make(G, 4)
+	);
+
+
 }
