@@ -240,4 +240,53 @@ public class Sections {
 		make(SlotType.ST_PD, 3)
 	);
 
+	//BATTLESHIP
+	public static final HashMap<SlotType, Integer> S_BSP1_DELTA_A = DoubleSet.generate(
+		make(SlotType.ST_PD, 2),
+		make(SlotType.ST_TORPEDO, 3)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP1_DELTA_B = DoubleSet.generate(
+		make(SlotType.ST_GUN_L, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP1_DELTA_C = DoubleSet.generate(
+		make(SlotType.ST_GUN_XL, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP1_DELTA_D = DoubleSet.generate(
+		make(SlotType.ST_PD, 2),
+		make(SlotType.ST_HANGAR, 1),
+		make(SlotType.ST_TORPEDO, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP1_BROADSIDE = DoubleSet.generate(
+		make(SlotType.ST_GUN_S, 2),
+		make(SlotType.ST_GUN_M, 1),
+		make(SlotType.ST_GUN_L, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP1_ARTILLERY1 = DoubleSet.generate(
+		make(SlotType.ST_GUN_L, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP1_HANGAR = DoubleSet.generate(
+		make(SlotType.ST_PD, 2),
+		make(SlotType.ST_GUN_M, 1),
+		make(SlotType.ST_HANGAR, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP1_COVERAGE = DoubleSet.generate(
+		make(SlotType.ST_GUN_S, 3),
+		make(SlotType.ST_GUN_L, 3)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP1_ARTILLERY2 = DoubleSet.generate(
+		make(SlotType.ST_GUN_L, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP1_CARRONADE = DoubleSet.generate(
+		make(SlotType.ST_GUN_S, 4),
+		make(SlotType.ST_GUN_L, 3)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP1_VOLLEY = DoubleSet.generate(
+		make(SlotType.ST_GUN_S, 6),
+		make(SlotType.ST_GUN_M, 6)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP1_SPITFIRE = DoubleSet.generate(
+		make(SlotType.ST_PD, 1),
+		make(SlotType.ST_GUN_S, 8),
+		make(SlotType.ST_GUN_L, 2)
+	);
 }
