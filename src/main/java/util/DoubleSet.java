@@ -20,5 +20,8 @@ public class DoubleSet<T> {
         }
         return tbr;
     }
+    public static <T> DoubleSet<T> make(T e1, int e2) {
+        return new DoubleSet<T>(e1, e2);
+    }
 
 }

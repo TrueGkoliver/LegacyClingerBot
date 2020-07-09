@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 import game.common.ships.weapons.SlotType;
 import util.DoubleSet;
-
+import static util.DoubleSet.make;
 public class Sections {
 	public static class SlotMix {
 		SlotType type;
@@ -195,7 +195,49 @@ public class Sections {
 	public static final HashMap<SlotType, Integer> S_ECA3_POINT_DEFENSE = DoubleSet.generate(
 			new DoubleSet<SlotType>(SlotType.ST_PD, 2)
 	);
-	
-	
-	
+	//Battlecruiser
+	public static final HashMap<SlotType, Integer> S_BCR1_ARTILLERY = DoubleSet.generate(
+		make(SlotType.ST_GUN_L, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_BCR1_FUSILLADE = DoubleSet.generate(
+		make(SlotType.ST_GUN_S, 2),
+		make(SlotType.ST_TORPEDO, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_BCR1_BROADSIDE = DoubleSet.generate(
+			make(SlotType.ST_GUN_M, 3)
+	);
+
+	public static final HashMap<SlotType, Integer> S_BCR2_BARRAGE = DoubleSet.generate(
+		make(SlotType.ST_GUN_L, 1),
+		make(SlotType.ST_TORPEDO, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_BCR2_ARTILLERY = DoubleSet.generate(
+		make(SlotType.ST_GUN_M, 1),
+		make(SlotType.ST_GUN_L, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_BCR2_VOLLEY = DoubleSet.generate(
+		make(SlotType.ST_GUN_S, 2),
+		make(SlotType.ST_GUN_M, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_BCR2_MISSILE = DoubleSet.generate(
+		make(SlotType.ST_TORPEDO, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_BCR2_BROADSIDE = DoubleSet.generate(
+		make(SlotType.ST_GUN_M, 4)
+	);
+
+	public static final HashMap<SlotType, Integer> S_BCR3_BROADSIDE = DoubleSet.generate(
+		make(SlotType.ST_GUN_M, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_BCR3_ARTILLERY = DoubleSet.generate(
+		make(SlotType.ST_GUN_L, 1)
+	);
+
+	public static final HashMap<SlotType, Integer> S_BCR3_SPITFIRE = DoubleSet.generate(
+		make(SlotType.ST_GUN_S, 3)
+	);
+	public static final HashMap<SlotType, Integer> S_BCR3_POINT_DEFENSE = DoubleSet.generate(
+		make(SlotType.ST_PD, 3)
+	);
+
 }
