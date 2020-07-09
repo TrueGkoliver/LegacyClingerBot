@@ -6,6 +6,13 @@ import game.common.ships.weapons.SlotType;
 import util.DoubleSet;
 import static util.DoubleSet.make;
 public class Sections {
+	private static SlotType L = SlotType.ST_GUN_L;
+	private static SlotType M = SlotType.ST_GUN_M;
+	private static SlotType S = SlotType.ST_GUN_S;
+	private static SlotType G = SlotType.ST_TORPEDO;
+	private static SlotType H = SlotType.ST_HANGAR;
+	private static SlotType P = SlotType.ST_PD;
+	private static SlotType W = SlotType.ST_COLOSSUS;
 	public static class SlotMix {
 		SlotType type;
 		int amt;
