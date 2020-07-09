@@ -387,6 +387,103 @@ public class Sections {
 	public static final HashMap<SlotType, Integer> S_BSP3_MISSILE = DoubleSet.generate(
 		make(G, 4)
 	);
+	public static final HashMap<SlotType, Integer> S_BSP4_PINPOINT = DoubleSet.generate(
+		make(P, 4),
+		make(M, 6)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP4_SPITFIRE = DoubleSet.generate(
+		make(P, 1),
+		make(S, 8)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP4_ARTILLERY = DoubleSet.generate(
+		make(L, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_BSP4_BROADSIDE = DoubleSet.generate(
+		make(M, 2)
+	);
 
+	//Carrier
+	public static final HashMap<SlotType, Integer> S_CAR1_SALVO = DoubleSet.generate(
+		make(P, 2),
+		make(S, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_CAR1_POINTDEFENSE = DoubleSet.generate(
+		make(P, 4),
+		make(G, 3)
+	);
+	public static final HashMap<SlotType, Integer> S_CAR1_BARRAGE = DoubleSet.generate(
+		make(P, 2),
+		make(G, 3)
+	);
+	public static final HashMap<SlotType, Integer> S_CAR1_CARRONADE = DoubleSet.generate(
+		make(P, 2),
+		make(S, 4),
+		make(G, 2)
+	);
+
+	//DO THIS ONE TWICE
+	public static final HashMap<SlotType, Integer> S_CAR2_MISSILE = DoubleSet.generate(
+		make(H, 4),
+		make(G, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_CAR2_PINPOINT = DoubleSet.generate(
+		make(P, 2),
+		make(S, 2),
+		make(H, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_CAR2_POINTDEFENSE = DoubleSet.generate(
+		make(P, 4),
+		make(H, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_CAR2_INVASION = DoubleSet.generate(
+		make(P, 2),
+		make(S, 2),
+		make(L, 1)
+	);
+
+	public static final HashMap<SlotType, Integer> S_CAR2_MISSILE_HC = DoubleSet.generate(
+			make(H, 6),
+			make(G, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_CAR2_PINPOINT_HC = DoubleSet.generate(
+			make(P, 2),
+			make(S, 2),
+			make(H, 6)
+	);
+	public static final HashMap<SlotType, Integer> S_CAR2_POINTDEFENSE_HC = DoubleSet.generate(
+			make(P, 4),
+			make(H, 6)
+	);
+	public static final HashMap<SlotType, Integer> S_CAR2_MISSILE_SC = DoubleSet.generate(
+			make(H, 8),
+			make(G, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_CAR2_PINPOINT_SC = DoubleSet.generate(
+			make(P, 2),
+			make(S, 2),
+			make(H, 8)
+	);
+	public static final HashMap<SlotType, Integer> S_CAR2_POINTDEFENSE_SC = DoubleSet.generate(
+			make(P, 4),
+			make(H, 8)
+	);
+
+	public static final HashMap<SlotType, Integer> S_CAR3_SALVO = DoubleSet.generate(
+		make(P, 2),
+		make(S, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_CAR3_POINT_DEFENSE = DoubleSet.generate(
+		make(P, 4),
+		make(G, 3)
+	);
+	public static final HashMap<SlotType, Integer> S_CAR3_BARRAGE = DoubleSet.generate(
+		make(P, 2),
+		make(G, 3)
+	);
+	public static final HashMap<SlotType, Integer> S_CAR3_CARRONADE = DoubleSet.generate(
+		make(P, 2),
+		make(S, 4),
+		make(G, 2)
+	);
 
 }
