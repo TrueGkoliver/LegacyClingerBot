@@ -520,4 +520,19 @@ public class Sections {
 		make(L, 2)
 	);
 
+	public static final HashMap<SlotType, Integer> S_DRD3_ARTILLERY = DoubleSet.generate(
+		make(L, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_DRD3_BROADSIDE = DoubleSet.generate(
+		make(M, 6)
+	);
+	public static final HashMap<SlotType, Integer> S_DRD3_VOLLEY = DoubleSet.generate(
+		make(P, 2),
+		make(S, 4),
+		make(M, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_DRD3_MISSILE = DoubleSet.generate(
+		make(G, 4)
+	);
+
 }
