@@ -486,4 +486,38 @@ public class Sections {
 		make(G, 2)
 	);
 
+	//Dreadnought
+	public static final HashMap<SlotType, Integer> S_DRD1_COVERAGE = DoubleSet.generate(
+		make(S, 4),
+		make(M, 4),
+		make(L, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_DRD1_ARTILLERY = DoubleSet.generate(
+		make(L, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_DRD1_CARRONADE = DoubleSet.generate(
+		make(P, 6),
+		make(S, 2),
+		make(L, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_DRD1_DEVASTATOR = DoubleSet.generate(
+		make(X, 2)
+	);
+
+	public static final HashMap<SlotType, Integer> S_DRD2_BARRAGE = DoubleSet.generate(
+		make(L, 2),
+		make(G, 5)
+	);
+	public static final HashMap<SlotType, Integer> S_DRD2_ARTILLERY = DoubleSet.generate(
+		make(L, 6)
+	);
+	public static final HashMap<SlotType, Integer> S_DRD2_BOMBARDMENT = DoubleSet.generate(
+		make(M, 7),
+		make(L, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_DRD2_PINPOINT = DoubleSet.generate(
+		make(P, 9),
+		make(L, 2)
+	);
+
 }
