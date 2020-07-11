@@ -51,7 +51,7 @@ public class LegacyClinger extends ListenerAdapter{
 		}
 	}
 	public static void setupCommands() {
-		cmd = new LegacyClingCmd();
+		//cmd = new LegacyClingCmd();
 		startempire = new GameCommands.StartEmpireCommands();
 		getgovttypes = new GameCommands.GetGovernmentTypesCommand();
 		obtainPlanet = new GameCommands.ObtainPlanetTypeCommand();

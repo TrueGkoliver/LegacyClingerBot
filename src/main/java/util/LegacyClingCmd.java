@@ -83,13 +83,12 @@ public class LegacyClingCmd implements ICommand {
 	@Override
 	public void onMessage(MessageReceivedEvent event) {
 		Member user = event.getMember();
-		event.getChannel().sendMessage("Command is firing");
-		/*user.getRoles().forEach((role)->{
+		user.getRoles().forEach((role)->{
 			if (role.getName().contains("Legacy Clinger")&&!role.getName().contains("The")) {
 				System.out.println(role.getName());
 				event.getChannel().sendMessage(getStringPortMessage()).queue();
 			}
-		});*/
+		});
 		
 	}
 	@Override
