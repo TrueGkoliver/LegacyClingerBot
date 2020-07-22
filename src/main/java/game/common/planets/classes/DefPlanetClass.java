@@ -1,7 +1,7 @@
 package game.common.planets.classes;
 
 public class DefPlanetClass extends PlanetClass {
-	public int web = 0;
+	public int rarityNumber = 0;
 	public DefPlanetClass() {
 		
 	}
@@ -9,10 +9,10 @@ public class DefPlanetClass extends PlanetClass {
 		super(name, weight);
 	}
 	public void setWeight(int weight) {
-		this.web = weight;
+		this.rarityNumber = weight;
 	}
 	public int getWeight() {
-		return web;
+		return rarityNumber;
 	}
 	
 	@Override
@@ -23,5 +23,8 @@ public class DefPlanetClass extends PlanetClass {
 	public void onTick() {
 		
 	}
+
+
+
 
 }

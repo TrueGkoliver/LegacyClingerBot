@@ -134,7 +134,7 @@ public class GameCommands {
 		public String getId() {
 			return "=obtainplanet";
 		}
-		
+
 		@Override
 		public void onMessage(MessageReceivedEvent event) {
 			String[] args = event.getMessage().getContentDisplay().split("\\s");
@@ -148,41 +148,9 @@ public class GameCommands {
 				String name = classIn.getName();
 				b+=name;
 				b+="!";
-				int numeral = classIn.web;
+				int numeral = classIn.rarityNumber;
 				String rarity = "";
-				if (numeral==0) {
-					rarity = "Ungodlike Rarity";
-				}
-				else if (numeral==10) {
-					rarity = "Ultra Rare";
-				}
-				else if (numeral==20) {
-					rarity = "Super Rare";
-				} 
-				else if (numeral==30) {
-					rarity = "Rare";
-				}
-				else if (numeral==40) {
-					rarity = "Very Uncommon";
-				}
-				else if (numeral==50) {
-					rarity = "Uncommon";
-				}
-				else if (numeral==60) {
-					rarity = "Not Very Common";
-				}
-				else if (numeral==70) {
-					rarity = "Common";
-				}
-				else if (numeral==80) {
-					rarity = "Very Common";
-				}
-				else if (numeral==90) {
-					rarity = "Extrmely Common";
-				}
-				else if (numeral==100) {
-					rarity = "Omnipresent";
-				}
+				rarity = classIn.getRarity();
 				b+=" (";
 				b+=rarity;
 				b+=")";
