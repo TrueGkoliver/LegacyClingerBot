@@ -5,6 +5,7 @@ import java.util.HashMap;
 import game.common.ships.weapons.SlotType;
 import util.DoubleSet;
 import static util.DoubleSet.make;
+@SuppressWarnings("unused")
 public class Sections {
 	private static SlotType L = SlotType.ST_GUN_L;
 	private static SlotType M = SlotType.ST_GUN_M;
@@ -803,6 +804,123 @@ public class Sections {
 		make(S, 2),
 		make(M, 2)
 	);
+
+	//Precursor Battlecruiser
+	public static final HashMap<SlotType, Integer> S_PCRBC1_BASE = DoubleSet.generate(
+		make(L, 2),
+		make(X, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_PCRBC1_MISSILE = DoubleSet.generate(
+		make(G, 4),
+		make(X, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_PCRBC1_CARRIER = DoubleSet.generate(
+		make(H, 2),
+		make(X, 1)
+	);
+
+	public static final HashMap<SlotType, Integer> S_PCRBC1_ALPHA_BASE = DoubleSet.generate(
+		make(L, 4),
+		make(X, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_PCRBC1_ALPHA_MISSILE = DoubleSet.generate(
+		make(G, 8),
+		make(X, 1)
+	);
+
+	public static final HashMap<SlotType, Integer> S_PCRBC1_ALPHA_CARRIER = DoubleSet.generate(
+		make(H, 4),
+		make(X, 1)
+	);
+
+	public static final HashMap<SlotType, Integer> S_PCRBC1_OMEGA_BASE = DoubleSet.generate(
+		make(X, 3)
+	);
+
+	public static final HashMap<SlotType, Integer> S_PCRBC2_CRUISER_MATRIX = DoubleSet.generate(
+		make(M, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_PCRBC2_GUIDANCE_MATRIX = DoubleSet.generate(
+		make(G, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_PCRBC2_ARTILLERY_MATRIX = DoubleSet.generate(
+		make(L, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_PCRBC2_CARRIER = DoubleSet.generate(
+		make(P, 4),
+		make(H, 3)
+	);
+
+	public static final HashMap<SlotType, Integer> S_PCRBC2_ALPHA_GUIDANCE_MATRIX = DoubleSet.generate(
+		make(G, 6)
+	);
+	public static final HashMap<SlotType, Integer> S_PCRBC2_ALPHA_ARTILLERY_MATRIX = DoubleSet.generate(
+		make(L, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_PCRBC2_ALPHA_CARRIER_MATRIX = DoubleSet.generate(
+		make(P, 4),
+		make(H, 5)
+	);
+	public static final HashMap<SlotType, Integer> S_PCRBC2_OMEGA_ARTILLERY_MATRIX = DoubleSet.generate(
+		make(L, 6)
+	);
+	public static final HashMap<SlotType, Integer> S_PCRBC2_OMEGA_GUIDANCE_MATRIX = DoubleSet.generate(
+		make(L, 2),
+		make(G, 8)
+	);
+	public static final HashMap<SlotType, Integer> S_PCRBC2_OMEGA_CARRIER_MATRIX = DoubleSet.generate(
+		make(H, 8)
+	);
+
+
+	public static final HashMap<SlotType, Integer> S_PCRBC3_HANGAR_MATRIX = DoubleSet.generate(
+		make(H, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_PCRBC3_FIRE_SUPPORT_MATRIX = DoubleSet.generate(
+		make(L, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_PCRBC3_MISSILE_MATRIX = DoubleSet.generate(
+		make(G, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_PCRBC3_ALPHA_HANGAR_MATRIX = DoubleSet.generate(
+		make(H, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_PCRBC3_ALPHA_FIRE_SUPPORT_MATRIX = DoubleSet.generate(
+		make(L, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_PCRBC3_ALPHA_MISSILE_MATRIX = DoubleSet.generate(
+		make(G, 7)
+	);
+	public static final HashMap<SlotType, Integer> S_PCRBC3_OMEGA_FIRE_SUPPORT_MATRIX = DoubleSet.generate(
+		make(L, 6)
+	);
+	public static final HashMap<SlotType, Integer> S_PCRBC3_OMEGA_HANGAR_MATRIX = DoubleSet.generate(
+		make(H, 7)
+	);
+	public static final HashMap<SlotType, Integer> S_PCRBC3_OMEGA_MISSILE_MATRIX = DoubleSet.generate(
+		make(L, 2),
+		make(G, 9)
+	);
+
+	public static final HashMap<SlotType, Integer> S_PCHYP1_CORE = DoubleSet.generate(
+		make(L, 2),
+		make(T, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_PCHYP1_MISSILE = DoubleSet.generate(
+		make(G, 4),
+		make(T, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_PCHYP1_CARRIER = DoubleSet.generate(
+		make(H, 3),
+		make(T, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_PCHYP1_ALPHA_CORE = DoubleSet.generate(
+		make(X, 2),
+		make(T, 1)
+	);
+
+
+
 
 
 
