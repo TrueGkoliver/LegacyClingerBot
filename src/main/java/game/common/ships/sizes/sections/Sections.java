@@ -1923,6 +1923,48 @@ public class Sections {
 		make(L, 2)
 	);
 
+	//Light Cruiser end
+	public static final HashMap<SlotType, Integer> I_VINDICATOR_BACK_I = DoubleSet.generate(
+		make(S, 2),
+		make(M, 1)
+	);
+	public static final HashMap<SlotType, Integer> I_VINDICATOR_BACK_II = DoubleSet.generate(
+		make(M, 2)
+	);
+	public static final HashMap<SlotType, Integer> I_VICTORY_BACK = DoubleSet.generate(
+		make(S, 2),
+		make(M, 1)
+	);
+	public static final HashMap<SlotType, Integer> I_VICTORY_BACK_TORPEDO = DoubleSet.generate(
+		make(G, 2)
+	);
+
+	//Medium Cruiser
+	public static final HashMap<SlotType, Integer> S_MC1_ACCLAMATOR_FRONT_I = DoubleSet.generate(
+		make(P, 2),
+		make(M, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_MC1_ACCLAMATOR_FRONT_II = DoubleSet.generate(
+		make(M, 3)
+	);
+	public static final HashMap<SlotType, Integer> S_MC1_GLADIATOR_FRONT_I = DoubleSet.generate(
+		make(S, 2),
+		make(M, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_MC1_GLADIATOR_FRONT_II = DoubleSet.generate(
+		make(M, 1),
+		make(L, 1)
+	);
+
+	public static final HashMap<SlotType, Integer> S_MC2_ACCLAMATOR_ASSAULT_SHIP = DoubleSet.generate(
+		make(M, 3),
+		make(L, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_MC2_GLADIATOR_SD = DoubleSet.generate(
+		make(M, 1),
+		make(H, 2)
+	);
+
 
 
 
