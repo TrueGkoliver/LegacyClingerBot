@@ -7,6 +7,7 @@ import java.util.HashMap;
  * @param <T> The type. Can be a slottype, a resource, or any other similar thing.
  */
 public class DoubleSet<T> {
+    public static int total;
     public int amt;
     T type;
     public DoubleSet(T type, int amt) {
@@ -18,6 +19,8 @@ public class DoubleSet<T> {
         for (DoubleSet set : sets) {
             tbr.put((V)set.type, set.amt);
         }
+        total++;
+        System.out.println(total);
         return tbr;
     }
     public static <T> DoubleSet<T> make(T e1, int e2) {

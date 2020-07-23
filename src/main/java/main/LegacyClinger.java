@@ -6,16 +6,14 @@ import javax.security.auth.login.LoginException;
 
 import game.common.planets.classes.GamePlanets;
 import game.common.planets.classes.PlanetClass;
+import game.common.ships.sizes.sections.Sections;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.events.ReadyEvent;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
-import util.GameCommands;
-import util.ICommand;
-import util.LegacyClingCmd;
+import util.*;
 import util.SecretInfo;
-import util.StringedCmd;
 
 public class LegacyClinger extends ListenerAdapter{
 	public static ArrayList<ICommand> commands = new ArrayList<ICommand>();
@@ -42,13 +40,14 @@ public class LegacyClinger extends ListenerAdapter{
 			System.out.println("FAILEDLOGIN");
 		}
 		jda.addEventListener(new LegacyClinger());
-		jda.addEventListener(new Listeners());
 		for (ICommand command : commands) {
 			System.out.println(command);
 		}
 		for (PlanetClass planetClass : GamePlanets.PLANET_CLASSES) {
 			System.out.println(String.valueOf(GamePlanets.PLANET_CLASSES.indexOf(planetClass)+" : "+planetClass.getName()));
 		}
+		new Sections();
+		System.out.println(DoubleSet.total);
 	}
 	public static void setupCommands() {
 		//cmd = new LegacyClingCmd();

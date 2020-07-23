@@ -11,15 +11,15 @@ public abstract class PlanetClass implements IPlanetClass {
 	public PlanetClass(String name, int weight) {
 		GamePlanets.PLANET_CLASSES.add(this);
 		this.name = name;
-		this.web=weight;
+		this.rarityNumber=weight;
 		GamePlanets.totalWeight+=weight;
 	}
 	public float getAdjustedWeight() {
 		System.out.println("This thing's Weight");
-		System.out.println(this.web);
+		System.out.println(this.rarityNumber);
 		System.out.println("Total Weight");
 		System.out.println(GamePlanets.totalWeight);
-		return ((float)web)/((float)GamePlanets.totalWeight);
+		return ((float)rarityNumber)/((float)GamePlanets.totalWeight);
 	}
 	public static boolean between(int num, int bound1, int bound2) {
 		return (bound1<=num)&&(num>=bound2);
@@ -34,6 +34,6 @@ public abstract class PlanetClass implements IPlanetClass {
 		between(rarityNumber, 61, 70) ? "Not Very Common" :
 		between(rarityNumber, 71, 80) ? "Common" :
 		between(rarityNumber, 81, 90) ? "Very Common" :
-		between(rarityNumber, 91, 100) ? "Omnipresent" : "Undefined"
+		between(rarityNumber, 91, 100) ? "Omnipresent" : "Undefined";
 	}
 }

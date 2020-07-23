@@ -9,7 +9,7 @@ public class GamePlanets {
 	public static ArrayList<PlanetClass> PLANET_CLASSES = new ArrayList<PlanetClass>(); 
 	public static int totalWeight;
 	public static float getAdjustedWeight(PlanetClass classIn) {
-		float floatWeb = (float)classIn.web;
+		float floatWeb = (float)classIn.rarityNumber;
 		float floatWeight = (float)totalWeight;
 		return floatWeb/floatWeight;
 	}
@@ -26,7 +26,7 @@ public class GamePlanets {
 				float adjustedWeight = getAdjustedWeight(classIn);
 				creativeI+=adjustedWeight;
 				String rarity;
-				long numeral = Math.round(classIn.web/10.0) * 10;
+				long numeral = Math.round(classIn.rarityNumber/10.0) * 10;
 				
 				
 				System.out.println(classIn.getName());
