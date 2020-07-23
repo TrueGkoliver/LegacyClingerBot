@@ -2334,7 +2334,13 @@ public class Sections {
 	);
 	//Swarm Star Nest
 	public static final HashMap<SlotType, Integer> S_SWARM_STAR_NEST = DoubleSet.generate(
-		make()
+		make(S, 3),
+		make(H, 4)
+	);
+	//Swarm Star Hive
+	public static final HashMap<SlotType, Integer> S_SWARM_STAR_HIVE = DoubleSet.generate(
+		make(M, 5),
+		make(H, 8)
 	);
 
 
