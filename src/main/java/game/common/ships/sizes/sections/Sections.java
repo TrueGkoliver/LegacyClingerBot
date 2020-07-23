@@ -1570,6 +1570,362 @@ public class Sections {
 		make(L, 2),
 		make(X, 1)
 	);
+	//Tiyanki Matriarch
+	public static final HashMap<SlotType, Integer> S_TIYANKI_MATRIARCH = DoubleSet.generate(
+		make(M, 6),
+		make(L, 2),
+		make(X, 1)
+	);
+	//Voidspawn
+	public static final HashMap<SlotType, Integer> S_VOIDSPAWN = DoubleSet.generate(
+		make(G, 6)
+	);
+	//Nanite Interdictor
+	public static final HashMap<SlotType, Integer> S_NANITE_INTERDICTOR = DoubleSet.generate(
+		make(H, 3),
+		make(G, 4)
+	);
+	//Nanite Mothership
+	public static final HashMap<SlotType, Integer> S_NANITE_MOTERHSHIP = DoubleSet.generate(
+		make(H, 10),
+		make(G, 4),
+		make(X, 1)
+	);
+	//Nanite Factory
+	public static final HashMap<SlotType, Integer> S_NANITE_FACTORY = DoubleSet.generate(
+		make(H, 15),
+		make(G, 12),
+		make(X, 1)
+	);
+	//Void Clouds
+	public static final HashMap<SlotType, Integer> S_VOID_CLOUDS = DoubleSet.generate(
+		make(L, 4)
+	);
+	//Space Ambeoba
+	public static final HashMap<SlotType, Integer> S_SPACE_AMBEOBA = DoubleSet.generate(
+		make(S, 3)
+	);
+	//Space Ambeoba Mother
+	public static final HashMap<SlotType, Integer> S_SPACE_AMBEOBA_MOTHER = DoubleSet.generate(
+		make(S, 2),
+		make(H, 2)
+	);
+	//Space Whale (Tiyanki)
+	public static final HashMap<SlotType, Integer> S_SPACE_WHALE = DoubleSet.generate(
+		make(S, 5)
+	);
+	//Ancient Mining Drone
+	public static final HashMap<SlotType, Integer> S_ANCIENT_MINING_DRONE = DoubleSet.generate(
+		make(S, 2)
+	);
+	//Ancient Combat Drone
+	public static final HashMap<SlotType, Integer> S_ANCIENT_COMBAT_DRONE = DoubleSet.generate(
+		make(S, 2),
+		make(M, 1)
+	);
+	//Ancient Destroyer
+	public static final HashMap<SlotType, Integer> S_ANCIENT_DESTROYER = DoubleSet.generate(
+		make(S, 2),
+		make(M, 2)
+	);
+	//Ancient Mining Station
+	public static final HashMap<SlotType, Integer> S_ANCIENT_MINING_STATION = DoubleSet.generate(
+		make(S, 3)
+	);
+	//Ancient Home Base
+	public static final HashMap<SlotType, Integer> S_ANCIENT_HOME_BASE = DoubleSet.generate(
+		make(L, 2),
+		make(H, 3)
+	);
+	//Crystal Shardling
+	public static final HashMap<SlotType, Integer> S_CRYSTAL_SHARDLING = DoubleSet.generate(
+		make(S, 3)
+	);
+	//Crystal Shard
+	public static final HashMap<SlotType, Integer> S_CRYSTAL_SHARD = DoubleSet.generate(
+		make(S, 4),
+		make(M, 1)
+	);
+	//Crystal Quintessence
+	public static final HashMap<SlotType, Integer> S_CRYSTAL_QUINTESSENCE = DoubleSet.generate(
+		make(M, 4),
+		make(L, 1)
+	);
+	//Crystal Station
+	public static final HashMap<SlotType, Integer> S_CRYSTAL_STATION = DoubleSet.generate(
+		make(S, 3)
+	);
+	//Crystal Nidius
+	public static final HashMap<SlotType, Integer> S_CRYSTAL_NIDIUS = DoubleSet.generate(
+		make(S, 4),
+		make(M, 4),
+		make(L, 4)
+	);
+	//Psionic Avatar
+	public static final HashMap<SlotType, Integer> S_AVATAR = DoubleSet.generate(
+		make(M, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_AVATAR_CORRUPTED = DoubleSet.generate(
+		make(M, 4)
+	);
+	//Pirate Raider
+	public static final HashMap<SlotType, Integer> S_PRRA_HEAVY_BOAT = DoubleSet.generate(
+		make(S, 1),
+		make(M, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_PRRA_INTERCEPTOR = DoubleSet.generate(
+		make(S, 3)
+	);
+	//Pirate Frigate
+	public static final HashMap<SlotType, Integer> S_PRFR_ARTILLERY = DoubleSet.generate(
+		make(S, 2),
+		make(L, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_PRFR_GUNSHIP = DoubleSet.generate(
+		make(P, 1),
+		make(S, 1),
+		make(M, 1),
+		make(G, 1)
+	);
+	//Pirate Cruiser
+	public static final HashMap<SlotType, Integer> S_PRCR_BROADSIDE = DoubleSet.generate(
+		make(S, 2),
+		make(M, 2),
+		make(L, 1)
+	);
+	//Pirate Galleon
+	public static final HashMap<SlotType, Integer> S_PRGL_BROADSIDE = DoubleSet.generate(
+		make(P, 3),
+		make(S, 1),
+		make(L, 8),
+		make(G, 1)
+	);
+	//Pirate Outpost
+	public static final HashMap<SlotType, Integer> S_PROUT = DoubleSet.generate(
+		make(S, 3)
+	);
+	//Nomad Destroyer
+	public static final HashMap<SlotType, Integer> S_NOMAD_DESTROYER = DoubleSet.generate(
+		make(P, 2),
+		make(L, 1)
+	);
+	//Nomad Cruiser
+	public static final HashMap<SlotType, Integer> S_NOMAD_CRUISER = DoubleSet.generate(
+		make(S, 3),
+		make(M, 2),
+		make(L, 1)
+	);
+	//Nomad Battleship
+	public static final HashMap<SlotType, Integer> S_NOMAD_BATTLESHIP = DoubleSet.generate(
+		make(S, 4),
+		make(M, 4),
+		make(L, 1)
+	);
+	//Enclave Station
+	public static final HashMap<SlotType, Integer> S_ECST_TRADER = DoubleSet.generate(
+		make(P, 4),
+		make(S, 6),
+		make(M, 6),
+		make(L, 6),
+		make(G, 4),
+		make(X, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_ECST_ARTIST = DoubleSet.generate(
+			make(P, 4),
+			make(S, 6),
+			make(M, 6),
+			make(L, 6),
+			make(G, 4),
+			make(X, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_ECST_CURATOR = DoubleSet.generate(
+			make(P, 4),
+			make(S, 6),
+			make(M, 6),
+			make(L, 6),
+			make(G, 4),
+			make(X, 1)
+	);
+
+	//Weaponized Passenger Liner
+	public static final HashMap<SlotType, Integer> S_WPL = DoubleSet.generate(
+		make(M, 3),
+		make(L, 2)
+	);
+	//Weaponized Tanker
+	public static final HashMap<SlotType, Integer> S_TANKER = DoubleSet.generate(
+		make(G, 9)
+	);
+	//Weaponized Freighter
+	public static final HashMap<SlotType, Integer> S_FREIGHTER = DoubleSet.generate(
+		make(P, 2),
+		make(H, 4)
+	);
+	//Weaponized Ark Ship
+	public static final HashMap<SlotType, Integer> S_ARK_SHIP = DoubleSet.generate(
+		make(P, 4),
+		make(M, 4),
+		make(L, 4)
+	);
+	//Caravaneer Destroyer
+	public static final HashMap<SlotType, Integer> S_CRVDE = DoubleSet.generate(
+		make(P, 2),
+		make(M, 1)
+	);
+	//Caravaneer Cruiser
+	public static final HashMap<SlotType, Integer> S_CRVCR = DoubleSet.generate(
+		make(S, 2),
+		make(M, 2),
+		make(L, 2)
+	);
+	//Caravaneer Cargo Ship
+	public static final HashMap<SlotType, Integer> S_CRVCARGO = DoubleSet.generate(
+		make(P, 5),
+		make(H, 10)
+	);
+	//Caraveneer Station
+	public static final HashMap<SlotType, Integer> S_CRVSTAT = DoubleSet.generate(
+		make(P, 4),
+		make(S, 6),
+		make(M, 6),
+		make(L, 6),
+		make(G, 4),
+		make(X, 1)
+	);
+
+	//Imperial TIE Fighter
+	public static final HashMap<SlotType, Integer> TIE_SCOUT = DoubleSet.generate(
+		make(S, 1)
+	);
+	public static final HashMap<SlotType, Integer> TIE_FIGHTER = DoubleSet.generate(
+		make(S, 2)
+	);
+	public static final HashMap<SlotType, Integer> TIE_INTERCEPTOR = DoubleSet.generate(
+		make(S, 4)
+	);
+	public static final HashMap<SlotType, Integer> TIE_HUNTER = DoubleSet.generate(
+		make(S, 4)
+	);
+	//TIE Bomber
+	public static final HashMap<SlotType, Integer> TIE_BOMBER = DoubleSet.generate(
+		make(S, 2)
+	);
+	public static final HashMap<SlotType, Integer> TIE_DEFENDER = DoubleSet.generate(
+		make(S, 3)
+	);
+	public static final HashMap<SlotType, Integer> TIE_TORPEDO_BOMBER = DoubleSet.generate(
+		make(S, 3)
+	);
+	//Patrol Craft
+	public static final HashMap<SlotType, Integer> S_PATROL_CRAFT = DoubleSet.generate(
+		make(S, 2)
+	);
+	//Frigate
+	public static final HashMap<SlotType, Integer> S_VIGIL_CORVETTE = DoubleSet.generate(
+		make(P, 1),
+		make(S, 2),
+		make(M, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_KUAT_WEAPON = DoubleSet.generate(
+		make(L, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_NEBULON_B_MAIN_HULL = DoubleSet.generate(
+		make(P, 2),
+		make(S, 4)
+	);
+
+	//Frigate Mid
+	public static final HashMap<SlotType, Integer> S_VIGIL_BACK_I = DoubleSet.generate(
+		make(P, 2),
+		make(S, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_VIGIL_BACK_II = DoubleSet.generate(
+		make(S, 2),
+		make(G, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_KUAT_WEAPON_BACK_I = DoubleSet.generate(
+		make(P, 1),
+		make(S, 3)
+	);
+	public static final HashMap<SlotType, Integer> S_KUAT_WEAPON_BACK_II = DoubleSet.generate(
+		make(M, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_NEBULON_B_BACK_I = DoubleSet.generate(
+		make(S, 2),
+		make(H, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_NEBULON_B_BACK_II = DoubleSet.generate(
+		make(M, 2)
+	);
+	//Escort Carrier
+	public static final HashMap<SlotType, Integer> I_ESCORT_CARRIER_FRONT_I = DoubleSet.generate(
+		make(S, 2),
+		make(M, 2)
+	);
+	public static final HashMap<SlotType, Integer> I_ESCORT_CARRIER_FRONT_II = DoubleSet.generate(
+		make(M, 3)
+	);
+	public static final HashMap<SlotType, Integer> I_ADDITIONAL_HANGARBAY = DoubleSet.generate(
+		make(H, 2)
+	);
+	public static final HashMap<SlotType, Integer> I_TONNFALK_FRONT_I = DoubleSet.generate(
+		make(S, 2),
+		make(M, 2)
+	);
+	//Escort Carrier Mid
+	public static final HashMap<SlotType, Integer> I_IMPERIAL_ESCORT_CARRIER = DoubleSet.generate(
+		make(P, 2),
+		make(H, 2)
+	);
+	public static final HashMap<SlotType, Integer> I_TONNFALK_ESCORT_CARRIER = DoubleSet.generate(
+		make(P, 2),
+		make(H, 3)
+	);
+	//Escort Carrier Back
+	public static final HashMap<SlotType, Integer> I_ESCORT_CARRIER_BACK_I = DoubleSet.generate(
+		make(S, 2),
+		make(M, 1)
+	);
+	public static final HashMap<SlotType, Integer> I_ESCORT_CARRIER_BACK_II = DoubleSet.generate(
+		make(M, 2)
+	);
+	public static final HashMap<SlotType, Integer> I_TONNFALK_BACK_I = DoubleSet.generate(
+		make(S, 2),
+		make(M, 2)
+	);
+	public static final HashMap<SlotType, Integer> I_ADDITIONAL_HANGARBAY_II = DoubleSet.generate(
+		make(H, 1)
+	);
+
+	//Light Cruiser
+	public static final HashMap<SlotType, Integer> I_LC_VINDICATORPD = DoubleSet.generate(
+		make(P, 2),
+		make(M, 2)
+	);
+	public static final HashMap<SlotType, Integer> I_VINDICATOR_FRONT = DoubleSet.generate(
+		make(S, 2),
+		make(M, 2)
+	);
+	public static final HashMap<SlotType, Integer> I_VICTORY_TORPEDO = DoubleSet.generate(
+		make(S, 2),
+		make(G, 2)
+	);
+	public static final HashMap<SlotType, Integer> I_VICTORY_FRONT = DoubleSet.generate(
+		make(S, 2),
+		make(M, 2)
+	);
+
+	//Light Cruiser Mid
+	public static final HashMap<SlotType, Integer> I_VINDICATOR_CRUISER = DoubleSet.generate(
+		make(H, 2)
+	);
+	public static final HashMap<SlotType, Integer> I_VICTORY_FRIGATE_MKII = DoubleSet.generate(
+		make(L, 2)
+	);
+
+
+
+
 
 
 
