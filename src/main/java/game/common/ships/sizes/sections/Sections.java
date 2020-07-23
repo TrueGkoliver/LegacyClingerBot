@@ -1964,8 +1964,319 @@ public class Sections {
 		make(M, 1),
 		make(H, 2)
 	);
+	public static final HashMap<SlotType, Integer> S_MC3_ACCLAMATOR_BACK_I = DoubleSet.generate(
+		make(M, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_MC3_ACCLAMATOR_BACK_II = DoubleSet.generate(
+		make(S, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_MC3_GLADIATOR_BACK_I = DoubleSet.generate(
+		make(M, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_MC3_GLADIATOR_BACK_II = DoubleSet.generate(
+		make(S, 2),
+		make(M, 1)
+	);
+	//Heavy Cruiser
+	public static final HashMap<SlotType, Integer> S_HC1_VICTORY_I = DoubleSet.generate(
+		make(S, 2),
+		make(M, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_HC1_VICTORY_II = DoubleSet.generate(
+		make(M, 3)
+	);
+	public static final HashMap<SlotType, Integer> S_HC1_VICTORY_HANGARBAY = DoubleSet.generate(
+		make(M, 1),
+		make(H, 1)
+	);
+
+	public static final HashMap<SlotType, Integer> S_HC2_VICTORY_I = DoubleSet.generate(
+		make(S, 2),
+		make(L, 1),
+		make(G, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_HC2_VICTORY_II = DoubleSet.generate(
+		make(S, 2),
+		make(M, 2),
+		make(L, 1)
+	);
+
+	public static final HashMap<SlotType, Integer> S_HC3_VICTORY_I_I = DoubleSet.generate(
+		make(M, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_HC3_VICTORY_I_II = DoubleSet.generate(
+		make(S, 2),
+		make(M, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_HC3_VICTORY_II_I = DoubleSet.generate(
+		make(M, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_HC3_VICTORY_II_II = DoubleSet.generate(
+		make(S, 2),
+		make(M, 1)
+	);
 
 
+
+	//Star Cruiser
+	public static final HashMap<SlotType, Integer> S_SC1_PROCURSATOR_I = DoubleSet.generate(
+		make(S, 2),
+		make(M, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_SC1_PROCURSATOR_II = DoubleSet.generate(
+		make(M, 3)
+	);
+
+	public static final HashMap<SlotType, Integer> S_SC2_PROCURSATOR_SD = DoubleSet.generate(
+		make(S, 2),
+		make(M, 2),
+		make(L, 3)
+	);
+
+	public static final HashMap<SlotType, Integer> S_SC3_PROCURSATOR_I = DoubleSet.generate(
+		make(M, 3)
+	);
+	public static final HashMap<SlotType, Integer> S_SC3_PROCURSATOR_II = DoubleSet.generate(
+		make(S, 2),
+		make(M, 2)
+	);
+
+	//Star Destroyer
+
+	public static final HashMap<SlotType, Integer> S_ISD1_CONQUEROR_I = DoubleSet.generate(
+		make(S, 2),
+		make(M, 3)
+	);
+	public static final HashMap<SlotType, Integer> S_ISD1_CONQUEROR_II = DoubleSet.generate(
+		make(P, 2),
+		make(S, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_ISD1_IMPERIAL1 = DoubleSet.generate(
+		make(S, 2),
+		make(M, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_ISD1_IMPERIAL2 = DoubleSet.generate(
+		make(S, 2),
+		make(M, 6)
+	);
+	public static final HashMap<SlotType, Integer> S_ISD1_VENATOR_I = DoubleSet.generate(
+		make(P, 2),
+		make(S, 4),
+		make(M, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_ISD1_VENATOR_II = DoubleSet.generate(
+		make(P, 2),
+		make(M, 4)
+	);
+
+
+	public static final HashMap<SlotType, Integer> S_ISD2_CONQUEROR_I = DoubleSet.generate(
+		make(M, 4),
+		make(T, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_ISD2_CONQUEROR_II = DoubleSet.generate(
+		make(M, 4),
+		make(X, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_ISD2_IMPERIAL_I = DoubleSet.generate(
+		make(P, 2),
+		make(H, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_ISD2_IMPERIAL_II = DoubleSet.generate(
+		make(M, 2),
+		make(H, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_ISD2_VENATOR = DoubleSet.generate(
+		make(H, 4),
+		make(X, 1)
+	);
+
+	public static final HashMap<SlotType, Integer> S_ISD3_CONQUEROR_WEAPON_BANK = DoubleSet.generate(
+		make(L, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_ISD3_OCTUPLE_BANK = DoubleSet.generate(
+		make(L, 8)
+	);
+	public static final HashMap<SlotType, Integer> S_ISD3_VENATOR_WEAPON_BANK = DoubleSet.generate(
+		make(L, 2),
+		make(P, 2),
+		make(H, 4)
+	);
+
+	public static final HashMap<SlotType, Integer> S_ISD4_CONQUEROR_I = DoubleSet.generate(
+		make(M, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_ISD4_IMPERIAL_I = DoubleSet.generate(
+		make(S, 2),
+		make(M, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_ISD4_VENATOR_I = DoubleSet.generate(
+		make(P, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_ISD4_VENATOR_II = DoubleSet.generate(
+		make(S, 2)
+	);
+
+	//Battlecruiser
+	public static final HashMap<SlotType, Integer> S_BCR1_SECUTOR_I = DoubleSet.generate(
+		make(S, 4),
+		make(M, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_BCR1_SECUTOR_II = DoubleSet.generate(
+		make(S, 2),
+		make(M, 5)
+	);
+	public static final HashMap<SlotType, Integer> S_BCR1_SECUTOR_III = DoubleSet.generate(
+		make(M, 6)
+	);
+	public static final HashMap<SlotType, Integer> S_BCR1_ALLEGIANCE_I = DoubleSet.generate(
+		make(S, 4),
+		make(M, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_BCR1_ALLEGIANCE_II = DoubleSet.generate(
+		make(S, 2),
+		make(M, 5)
+	);
+	public static final HashMap<SlotType, Integer> S_BCR1_ALLEGIANCE_III = DoubleSet.generate(
+		make(M, 6)
+	);
+
+	public static final HashMap<SlotType, Integer> S_BCR2_SECUTOR_I = DoubleSet.generate(
+		make(M, 4),
+		make(L, 3)
+	);
+	public static final HashMap<SlotType, Integer> S_BCR2_SECUTOR_II = DoubleSet.generate(
+		make(S, 2),
+		make(M, 3),
+		make(L, 3)
+	);
+	public static final HashMap<SlotType, Integer> S_BCR2_ALLEGIANCE_I = DoubleSet.generate(
+		make(M, 4),
+		make(L, 3)
+	);
+	public static final HashMap<SlotType, Integer> S_BCR2_ALLEGIANCE_II = DoubleSet.generate(
+		make(S, 2),
+		make(M, 3),
+		make(L, 3)
+	);
+
+	public static final HashMap<SlotType, Integer> S_BCR3_SECUTOR_SMALL_HANGARBAY = DoubleSet.generate(
+		make(H, 6)
+	);
+	public static final HashMap<SlotType, Integer> S_BCR3_SECUTOR_LARGE_HANGARBAY = DoubleSet.generate(
+		make(H, 12)
+	);
+	public static final HashMap<SlotType, Integer> S_BCR3_SMALL_WEAPON_BANK = DoubleSet.generate(
+		make(L, 6)
+	);
+	public static final HashMap<SlotType, Integer> S_BCR3_LARGE_WEAPON_BANK = DoubleSet.generate(
+		make(L, 12)
+	);
+
+	public static final HashMap<SlotType, Integer> S_BCR4_SECUTOR  = DoubleSet.generate(
+		make(S, 2),
+		make(M, 6)
+	);
+	public static final HashMap<SlotType, Integer> S_BCR4_ALLEGIANCE = DoubleSet.generate(
+		make(S, 3),
+		make(M, 5)
+	);
+
+	//Super Star Destroyer
+	public static final HashMap<SlotType, Integer> S_SSD1_BELLATOR_I = DoubleSet.generate(
+		make(M, 4),
+		make(L, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_SSD1_BELLATOR_II = DoubleSet.generate(
+		make(M, 8),
+		make(L, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_SSD1_BELLATOR_III = DoubleSet.generate(
+		make(L, 6)
+	);
+	public static final HashMap<SlotType, Integer> S_SSD1_ANNIHILATOR = DoubleSet.generate(
+		make(X, 3)
+	);
+
+	public static final HashMap<SlotType, Integer> S_SSD2_BELLATOR_I = DoubleSet.generate(
+		make(M, 4),
+		make(L, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_SSD2_BELLATOR_II = DoubleSet.generate(
+		make(M, 8),
+		make(L, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_SSD2_ANNIHILATOR = DoubleSet.generate(
+		make(M, 28)
+	);
+	public static final HashMap<SlotType, Integer> S_SSD3_BELLATOR_I = DoubleSet.generate(
+		make(S, 4),
+		make(M, 4),
+		make(L, 4)
+	);
+	public static final HashMap<SlotType, Integer> S_SSD3_BELLATOR_II = DoubleSet.generate(
+		make(M, 10),
+		make(L, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_SSD3_ANNIHILATOR = DoubleSet.generate(
+		make(H, 29)
+	);
+	public static final HashMap<SlotType, Integer> S_SSD4_BELLATOR = DoubleSet.generate(
+		make(M, 4),
+		make(L, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_SSD4_ANNIHILATOR = DoubleSet.generate(
+		make(P, 6)
+	);
+	//Heavy Interdictor
+	public static final HashMap<SlotType, Integer> S_HVIDC1_INTERDICTOR_I = DoubleSet.generate(
+		make(S, 2),
+		make(M, 3),
+		make(L, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_HVIDC1_INTERDICTOR_II = DoubleSet.generate(
+		make(S, 4),
+		make(M, 2),
+		make(H, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_HVIDC1_INTERDICTOR_III = DoubleSet.generate(
+		make(S, 4),
+		make(M, 4),
+		make(L, 1)
+	);
+
+	public static final HashMap<SlotType, Integer> S_HVIDC2_INTERDICTOR_I = DoubleSet.generate(
+		make(P, 2),
+		make(S, 2),
+		make(H, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_HVIDC2_INTERDICTOR_II = DoubleSet.generate(
+		make(M, 2),
+		make(L, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_HVIDC2_INTERDICTOR_III = DoubleSet.generate(
+		make(S, 4),
+		make(L, 1)
+	);
+	//Light Interdictor
+	public static final HashMap<SlotType, Integer> S_LIDC1_ANTI_STRIKE_CRAFT = DoubleSet.generate(
+		make(P, 2),
+		make(M, 2)
+	);
+	public static final HashMap<SlotType, Integer> S_LIDC1_IMMOBILIZER = DoubleSet.generate(
+		make(S, 2),
+		make(M, 2)
+	);
+
+	public static final HashMap<SlotType, Integer> S_LIDC2_IMMOBILIZER = DoubleSet.generate(
+		make(S, 2),
+		make(M, 1),
+		make(H, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_LIDC3_IMMOBILIZIER = DoubleSet.generate(
+		make(S, 2),
+		make(M, 1)
+	);
 
 
 
