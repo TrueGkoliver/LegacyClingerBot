@@ -76,7 +76,31 @@ public class Sections {
 	public static final HashMap<SlotType, Integer> S_D1_PICKET = generateSection(join(SlotType.ST_PD, 1), join(SlotType.ST_GUN_S, 2));
 	public static final HashMap<SlotType, Integer> S_D1_PD_DESTROYER = generateSection(join(SlotType.ST_GUN_M, 1), join(SlotType.ST_PD, 4));
 	public static final HashMap<SlotType, Integer> S_D1_MISSILE = generateSection(join(SlotType.ST_TORPEDO, 2));
-	
+
+	public static final ShipSection D1_DELTA_DESTROYER_A = new ShipSection("Delta Destroyer Bow A", S_D1_DELTA_DESTROYER_A);
+	public static final ShipSection D1_DELTA_DESTROYER_B = new ShipSection("Delta Destroyer Bow B", S_D1_DELTA_DESTROYER_B);
+	public static final ShipSection D1_DELTA_DESTROYER_C = new ShipSection("Delta Destroyer Bow C", S_D1_DELTA_DESTROYER_C);
+	public static final ShipSection D1_DELTA_DESTROYER_D = new ShipSection("Delta Destroyer Bow D", S_D1_DELTA_DESTROYER_D);
+	public static final ShipSection D1_ARTILLERY = new ShipSection("Artillery Bow", S_D1_ARTILLERY);
+	public static final ShipSection D1_GUNSHIP = new ShipSection("Gunship Bow", S_D1_GUNSHIP);
+	public static final ShipSection D1_PICKET = new ShipSection("Picket Bow", S_D1_PICKET);
+	public static final ShipSection D1_PD_DESTROYER = new ShipSection("PD Destroyer Bow", S_D1_PD_DESTROYER);
+	public static final ShipSection D1_MISSILE = new ShipSection("Missile Bow", S_D1_MISSILE);
+	public static final ShipSection[] DESTROYER_TOP_SECTIONS = new ShipSection[]{
+			D1_DELTA_DESTROYER_A,
+			D1_DELTA_DESTROYER_B,
+			D1_DELTA_DESTROYER_C,
+			D1_DELTA_DESTROYER_D,
+			D1_ARTILLERY,
+			D1_GUNSHIP,
+			D1_PICKET,
+			D1_PICKET,
+			D1_MISSILE
+	};
+
+
+
+
 	//Destroyer: Top Section
 	public static final HashMap<SlotType, Integer> S_D2_DELTA_DESTROYER_A = generateSection(join(SlotType.ST_PD, 2));
 	public static final HashMap<SlotType, Integer> S_D2_DELTA_DESTROYER_B = generateSection(join(SlotType.ST_GUN_S, 2));
