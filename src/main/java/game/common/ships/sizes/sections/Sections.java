@@ -2278,6 +2278,65 @@ public class Sections {
 		make(M, 1)
 	);
 
+	//Star Dreadnought
+	public static final HashMap<SlotType, Integer> S_SDR1_ECLIPSE = DoubleSet.generate(
+		make(T, 1)
+	);
+	public static final HashMap<SlotType, Integer> S_SDR1_EXECUTOR = DoubleSet.generate(
+		make(X, 3)
+	);
+
+	public static final HashMap<SlotType, Integer> S_SDR2_MID_I = DoubleSet.generate(
+		make(L, 8)
+	);
+	public static final HashMap<SlotType, Integer> S_SDR3_ECLIPSE = DoubleSet.generate(
+		make(L, 8)
+	);
+	public static final HashMap<SlotType, Integer> S_SDR3_EXECUTOR = DoubleSet.generate(
+		make(L, 12)
+	);
+
+	public static final HashMap<SlotType, Integer> S_SDR4_ECLIPSE = DoubleSet.generate(
+		make(L, 8)
+	);
+	public static final HashMap<SlotType, Integer> S_SDR4_EXECUTOR = DoubleSet.generate(
+		make(G, 7)
+	);
+
+	public static final HashMap<SlotType, Integer> S_SDR5_ECLIPSE = DoubleSet.generate(
+		make(H, 6)
+	);
+	public static final HashMap<SlotType, Integer> S_SDR5_EXECUTOR = DoubleSet.generate(
+		make(M, 6),
+		make(H, 4)
+	);
+
+	//Swarm Swarmling
+	public static final HashMap<SlotType, Integer> S_SWARM_SWARMLING = DoubleSet.generate(
+		make(S, 2),
+		make(G, 1)
+	);
+	//Swarm Warrior
+	public static final HashMap<SlotType, Integer> S_SWARM_WARRIOR = DoubleSet.generate(
+		make(M, 2),
+		make(G, 3)
+	);
+	//Swarm Carrier
+	public static final HashMap<SlotType, Integer> S_SWARM_CARRIER = DoubleSet.generate(
+		make(S, 2),
+		make(H, 4)
+	);
+	//Swarm Queen
+	public static final HashMap<SlotType, Integer> S_SWARM_QUEEN = DoubleSet.generate(
+		make(M, 3),
+		make(H, 3),
+		make(G, 4)
+	);
+	//Swarm Star Nest
+	public static final HashMap<SlotType, Integer> S_SWARM_STAR_NEST = DoubleSet.generate(
+		make()
+	);
+
 
 
 
