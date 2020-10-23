@@ -1,7 +1,7 @@
 package game.common.planets.classes;
 
 public interface IPlanetClass {
-	public void onAdd();
-	public void onTick();
+	public default void onAdd() {}
+	public default void onTick() {}
 
 }

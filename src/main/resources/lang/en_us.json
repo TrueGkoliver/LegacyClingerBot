@@ -93,5 +93,9 @@
 	"bw/structure" : "Birch World Structure Segment",
 	"bw/extraction" : "Extraction Insula",
 	"bw/ecumneopolis" : "Ecumneopolis Insula",
-	"bw/preserve" : "Nature Insula"
+	"bw/preserve" : "Nature Insula",
+
+	"__comment" : "Here begins the planet localization",
+	"planet.mining_station.name" : "Mining Station",
+	"planet.science_station.name" : "Science Station"
 }

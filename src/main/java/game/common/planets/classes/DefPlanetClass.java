@@ -12,11 +12,6 @@ public class DefPlanetClass extends PlanetClass {
 	public int getWeight() {
 		return rarityNumber;
 	}
-	
-	@Override
-	public void onAdd() { }
-	@Override
-	public void onTick() { }
 
 
 

@@ -4,7 +4,7 @@ import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Random;
-
+@SuppressWarnings("unused")
 public class GamePlanets {
 	public static ArrayList<PlanetClass> PLANET_CLASSES = new ArrayList<PlanetClass>(); 
 	public static int totalWeight;
