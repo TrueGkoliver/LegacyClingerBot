@@ -111,8 +111,24 @@ public class Sections {
 	public static final HashMap<SlotType, Integer> S_D2_PICKET = generateSection(join(SlotType.ST_PD, 2));
 	public static final HashMap<SlotType, Integer> S_D2_PD_DESTROYER = generateSection(join(SlotType.ST_PD, 4));
 
-
-
+	public static final ShipSection D2_DELTA_DESTROYER_A = new ShipSection("Delta Destroyer A Stern", S_D2_DELTA_DESTROYER_A);
+	public static final ShipSection D2_DELTA_DESTROYER_B = new ShipSection("Delta Destroyer B Stern", S_D2_DELTA_DESTROYER_B);
+	public static final ShipSection D2_DELTA_DESTROYER_C = new ShipSection("Delta Destroyer C Stern", S_D2_DELTA_DESTROYER_C);
+	public static final ShipSection D2_DELTA_DESTROYER_D = new ShipSection("Delta Destroyer D Stern", S_D2_DELTA_DESTROYER_D);
+	public static final ShipSection D2_INTERCEPTOR = new ShipSection("Interceptor Stern", S_D2_INTERCEPTOR);
+	public static final ShipSection D2_GUNSHIP = new ShipSection("Gunship Stern", S_D2_GUNSHIP);
+	public static final ShipSection D2_PICKET = new ShipSection("Picket Stern", S_D2_PICKET);
+	public static final ShipSection D2_PD_DESTROYER = new ShipSection("PD Stern", S_D2_PD_DESTROYER);
+	public static final ShipSection[] DESTROYER_TOP_SECTIONS = new ShipSection[] {
+			D2_DELTA_DESTROYER_A,
+			D2_DELTA_DESTROYER_B,
+			D2_DELTA_DESTROYER_C,
+			D2_DELTA_DESTROYER_D,
+			D2_INTERCEPTOR,
+			D2_GUNSHIP,
+			D2_PICKET,
+			D2_PD_DESTROYER
+	};
 
 
 
@@ -126,7 +142,15 @@ public class Sections {
 	public static final HashMap<SlotType, Integer> S_CR1_MISSILE = generateSection(join(SlotType.ST_GUN_S, 2), join(SlotType.ST_TORPEDO, 1));
 	public static final HashMap<SlotType, Integer> S_CR1_PINPOINT = generateSection(join(SlotType.ST_PD, 2), join(SlotType.ST_TORPEDO, 1));
 	public static final HashMap<SlotType, Integer> S_CR1_BROADSIDE = generateSection(join(SlotType.ST_GUN_M, 2));
-	
+
+	public static final ShipSection CR1_DELTA_CRUISER_A = new ShipSection("Delta Cruiser A Bow", S_CR1_DELTA_CRUISER_A);
+	public static final ShipSection CR1_DELTA_CRUISER_B = new ShipSection("Delta Cruiser B Bow", S_CR1_DELTA_CRUISER_B);
+	public static final ShipSection CR1_DELTA_CRUISER_C = new ShipSection("Delta Cruiser C Bow", S_CR1_DELTA_CRUISER_C);
+	public static final ShipSection CR1_DELTA_CRUISER_D = new ShipSection("Delta Cruiser D Bow", S_CR1_DELTA_CRUISER_D);
+	public static final ShipSection CR1_ARTILLERY = new ShipSection("Artillery Bow", S_CR1_ARTILLERY);
+	public static final ShipSection CR1_MISSILE = new ShipSection("Missile Bow", S_CR1_MISSILE);
+	public static final ShipSection CR1_PINPOINT = new ShipSection("Pinpoint Bow", S_CR1_PINPOINT);
+	public static final ShipSection CR1_BROADSIDE = new ShipSection("Broadside Bow", S_CR1_BROADSIDE);
 	
 	//Cruiser: Middle
 	public static final HashMap<SlotType, Integer> S_CR2_DELTA_CRUISER_A = generateSection(join(SlotType.ST_PD, 2), join(SlotType.ST_HANGAR, 1));
@@ -140,7 +164,18 @@ public class Sections {
 	public static final HashMap<SlotType, Integer> S_CR2_BROADSIDE_CORE = generateSection(join(SlotType.ST_GUN_M, 3));
 	public static final HashMap<SlotType, Integer> S_CR2_MISSILE_CORE = generateSection(join(SlotType.ST_GUN_S, 2), join(SlotType.ST_TORPEDO, 2));
 	public static final HashMap<SlotType, Integer> S_CR2_PINPOINT_CORE = generateSection(join(SlotType.ST_PD, 2), join(SlotType.ST_TORPEDO, 2));
-	
+
+	public static final ShipSection CR2_DELTA_CRUISER_A_CORE = new ShipSection("Delta Cruiser A Core", S_CR2_DELTA_CRUISER_A);
+	public static final ShipSection CR2_DELTA_CRUISER_B_CORE = new ShipSection("Delta Cruiser B Core", S_CR2_DELTA_CRUISER_B);
+	public static final ShipSection CR2_DELTA_CRUISER_C_CORE = new ShipSection("Delta Cruiser C Core", S_CR2_DELTA_CRUISER_C);
+	public static final ShipSection CR2_DELTA_CRUISER_D_CORE = new ShipSection("Delta Cruiser D Core", S_CR2_DELTA_CRUISER_D);
+	public static final ShipSection CR2_HANGAR_CORE = new ShipSection("Hangar Core", S_CR2_HANGAR_CORE);
+	public static final ShipSection CR2_ARTILLERY_CORE = new ShipSection("Artillery Core", S_CR2_ARTILLERY_CORE);
+	public static final ShipSection CR2_BROADSIDE_CORE = new ShipSection("Broadside Core", S_CR2_BROADSIDE_CORE);
+	public static final ShipSection CR2_MISSILE_CORE = new ShipSection("Missile Core", S_CR2_MISSILE_CORE);
+	public static final ShipSection CR2_PINPOINT_CORE = new ShipSection("Pinpoint Core", S_CR2_PINPOINT_CORE);
+
+
 	//Cruiser: Top
 	public static final HashMap<SlotType, Integer> S_CR3_DELTA_CRUISER_A = generateSection(join(SlotType.ST_GUN_M, 1));
 	public static final HashMap<SlotType, Integer> S_CR3_DELTA_CRUISER_B = generateSection(join(SlotType.ST_TORPEDO, 1));
@@ -150,6 +185,13 @@ public class Sections {
 	public static final HashMap<SlotType, Integer> S_CR3_GUNSHIP = generateSection(join(SlotType.ST_GUN_S, 2));
 	public static final HashMap<SlotType, Integer> S_CR3_PINPOINT = generateSection(join(SlotType.ST_PD, 2));
 
+	public static final ShipSection CR3_DELTA_CRUISER_A = new ShipSection("Delta Cruiser Stern", S_CR3_DELTA_CRUISER_A);
+	public static final ShipSection CR3_DELTA_CRUISER_B = new ShipSection("Delta Cruiser Stern", S_CR3_DELTA_CRUISER_B);
+	public static final ShipSection CR3_DELTA_CRUISER_C = new ShipSection("Delta Cruiser Stern", S_CR3_DELTA_CRUISER_C);
+	public static final ShipSection CR3_DELTA_CRUISER_D = new ShipSection("Delta Cruiser Stern", S_CR3_DELTA_CRUISER_D);
+	public static final ShipSection CR3_GUNSHIP = new ShipSection("Gunship Stern", S_CR3_GUNSHIP);
+	public static final ShipSection CR3_PINPOINT = new ShipSection("Pinpoint Stern", S_CR3_PINPOINT);
+
 	//Stike Cruiser: Front
 	public static final HashMap<SlotType, Integer> S_SCR1_VOLLEY = generateSection(join(SlotType.ST_GUN_S, 2), join(SlotType.ST_GUN_M, 2));
 	public static final HashMap<SlotType, Integer> S_SCR1_PINPOINT = generateSection(join(SlotType.ST_PD, 2), join(SlotType.ST_GUN_M, 2));
@@ -157,18 +199,32 @@ public class Sections {
 	public static final HashMap<SlotType, Integer> S_SCR1_MISSILE = generateSection(join(SlotType.ST_TORPEDO, 2));
 	public static final HashMap<SlotType, Integer> S_SCR1_ARTILLERY = generateSection(join(SlotType.ST_GUN_L, 1));
 	public static final HashMap<SlotType, Integer> S_SCR1_BROADSIDE = generateSection(join(SlotType.ST_GUN_M, 3));
-	
+
+	public static final ShipSection SCR1_VOLLEY = new ShipSection("Volley Bow", S_SCR1_VOLLEY);
+	public static final ShipSection SCR1_PINPOINT = new ShipSection("Pinpoint Bow", S_SCR1_PINPOINT);
+	public static final ShipSection SCR1_FULLISADE = new ShipSection("Fullisade Bow", S_SCR1_FULLISADE);
+	public static final ShipSection SCR1_MISSILE = new ShipSection("Missile Bow", S_SCR1_MISSILE);
+	public static final ShipSection SCR1_ARTILLERY = new ShipSection("Artillery Bow", S_SCR1_ARTILLERY);
+	public static final ShipSection SCR1_BROADSIDE = new ShipSection("Broadside Bow", S_SCR1_BROADSIDE);
+
 	//Strike Cruiser: Mid: Note: DOUBLE on this one, 4 sections total
 	public static final HashMap<SlotType, Integer> S_SCR2_VOLLEY = generateSection(join(SlotType.ST_GUN_S, 2), join(SlotType.ST_GUN_M, 2));
 	public static final HashMap<SlotType, Integer> S_SCR2_SPITFIRE = generateSection(join(SlotType.ST_GUN_S, 6));
 	public static final HashMap<SlotType, Integer> S_SCR2_BROADSIDE = generateSection(join(SlotType.ST_GUN_M, 3));
-	
-	//Exploration Cruiser: Back
+
+	public static final ShipSection SCR2_VOLLEY = new ShipSection("Volley Core", S_SCR2_VOLLEY);
+	public static final ShipSection SCR2_SPITFIRE = new ShipSection("Spitfire Core", S_SCR2_SPITFIRE);
+	public static final ShipSection SCR2_BROADSIDE = new ShipSection("Broadside Core", S_SCR2_BROADSIDE);
+
+	//Strike Cruiser: Back
 	public static final HashMap<SlotType, Integer> S_SCR3_BROADSIDE = generateSection(join(SlotType.ST_GUN_M, 2));
 	public static final HashMap<SlotType, Integer> S_SCR3_PINPOINT = generateSection(join(SlotType.ST_PD, 2), join(SlotType.ST_GUN_S, 2));
 	public static final HashMap<SlotType, Integer> S_SCR3_SPITFIRE = generateSection(join(SlotType.ST_GUN_S, 4));
 	
-	
+	public static final ShipSection SCR3_BROADSIDE = new ShipSection("Broadside Stern", S_SCR3_BROADSIDE);
+	public static final ShipSection SCR3_PINPOINT = new ShipSection("Pinpoint Stern", S_SCR3_PINPOINT);
+	public static final ShipSection SCR3_SPITFIRE = new ShipSection("Spitfire Stern", S_SCR3_SPITFIRE);
+
 	//Exploration Cruiser: Front
 	public static final HashMap<SlotType, Integer> S_ECR1_ARTILLERY_L1 = generateSection(join(SlotType.ST_GUN_L, 1));
 	public static final HashMap<SlotType, Integer> S_ECR1_FUSILLADE_L1 = generateSection(join(SlotType.ST_GUN_S, 2), join(SlotType.ST_TORPEDO, 1));
