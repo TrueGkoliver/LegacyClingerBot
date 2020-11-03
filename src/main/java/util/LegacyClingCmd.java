@@ -63,7 +63,12 @@ public class LegacyClingCmd implements ICommand {
 	    "Indev 0.3",
 	    "Beta 1.0",
 	    "Beta 1.9",
-	    "1.16 (when it releases)"
+	    "1.16",
+		"1.16.1",
+		"1.16.2",
+		"1.16.3",
+		"1.16.4",
+		"1.17 (when it releases)"
 	};
  	public static String getStringPortMessage() {
  		int fabric = rand.nextInt(9);

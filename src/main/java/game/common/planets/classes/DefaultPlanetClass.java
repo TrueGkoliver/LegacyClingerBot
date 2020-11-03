@@ -1,9 +1,9 @@
 package game.common.planets.classes;
 
-public class DefPlanetClass extends PlanetClass {
+public class DefaultPlanetClass extends PlanetClass {
 	public int rarityNumber = 0;
-	public DefPlanetClass() { }
-	public DefPlanetClass(String name, int weight) {
+	public DefaultPlanetClass() { }
+	public DefaultPlanetClass(String name, int weight) {
 		super(name, weight);
 	}
 	public void setWeight(int weight) {
