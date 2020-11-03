@@ -1,21 +1,38 @@
 package game.common.planets.districts;
 
+import game.common.planets.jobs.Job;
+import game.common.planets.jobs.Jobs;
+import game.common.resources.Resource;
+import util.DoubleSet;
+
+import java.util.HashMap;
+
 public class Districts {
+	public static HashMap<Resource, Integer> create(DoubleSet... set) {
+		return DoubleSet.generate(set);
+	}
+	public static DoubleSet gen(Job job, Integer integer) {
+		return DoubleSet.make(job, integer);
+	}
+	public static HashMap<Job, Integer> make(Job job, Integer integer) {
+		return DoubleSet.generate(DoubleSet.make(job, integer));
+	}
+
 	public static final District HOUSING = new District("general/housing", null, 5);
-	public static final District FARMING = new District("general/farming", null, 2);
-	public static final District GENERATOR = new District("general/generator", null, 2);
-	public static final District MINING = new District("general/mining", null, 2);
+	public static final District FARMING = new District("general/farming", make(Jobs.FARMER, 5), 2);
+	public static final District GENERATOR = new District("general/generator", make(Jobs.TECHNICIAN, 5), 2);
+	public static final District MINING = new District("general/mining", make(Jobs.MINER, 5), 2);
 	public static final DistrictSet DEFAULT = new DistrictSet(HOUSING, FARMING, GENERATOR, MINING);
 	
 	public static final District RINGWORLD_HOUSING = new District("ringworld/housing", null, 50);
 	public static final District RINGWORLD_RESEARCH = new District("ringworld/research", null, 20);
-	public static final District RINGWORLD_GENERATOR = new District("ringworld/generator", null, 20);
-	public static final District RINGWORLD_FARMING = new District("ringworld/farming", null, 20);
+	public static final District RINGWORLD_GENERATOR = new District("ringworld/generator", make(Jobs.TECHNICIAN, 20), 20);
+	public static final District RINGWORLD_FARMING = new District("ringworld/farming", make(Jobs.FARMER, 20), 20);
 	public static final District RINGWORLD_COMMERCIAL = new District("ringworld/commercial", null, 20);
 	public static final DistrictSet RINGWORLD = new DistrictSet(RINGWORLD_HOUSING, RINGWORLD_RESEARCH, RINGWORLD_GENERATOR, RINGWORLD_FARMING, RINGWORLD_COMMERCIAL);
 	
 	public static final District ARCOLOGY_HOUSING = new District("arcology/housing", null, 15);
-	public static final District ARCOLOGY_FOUNDRY = new District("arcology/foundry", null, 10);
+	public static final District ARCOLOGY_FOUNDRY = new District("arcology/foundry", make(Jobs.ARTISAN, 15), 10);
 	public static final District ARCOLOGY_INDUSTRIAL = new District("arcology/industrial", null, 10);
 	public static final District ARCOLOGY_LEISURE = new District("arcology/leisure", null, 10);
 	public static final DistrictSet ARCOLOGY = new DistrictSet(ARCOLOGY_HOUSING, ARCOLOGY_FOUNDRY, ARCOLOGY_INDUSTRIAL, ARCOLOGY_LEISURE);
@@ -23,8 +40,8 @@ public class Districts {
 	public static final District HABITAT_HABITATION = new District("habitat/housing", null, 8);
 	public static final District HABITAT_TRADE = new District("habitat/trade", null, 3);
 	public static final District HABITAT_LEISURE = new District("habitat/leisure", null, 3);
-	public static final District HABITAT_ASTRO_MINING = new District("habitat/astro_mining", null, 3);
-	public static final District HABITAT_REACTOR = new District("habitat/reactor", null, 3);
+	public static final District HABITAT_ASTRO_MINING = new District("habitat/astro_mining", make(Jobs.MINER, 3), 3);
+	public static final District HABITAT_REACTOR = new District("habitat/reactor", make(Jobs.TECHNICIAN, 3), 3);
 	public static final District HABITAT_RESEARCH = new District("habitat/research", null, 3);
 	public static final DistrictSet HABITAT = new DistrictSet(HABITAT_HABITATION, HABITAT_TRADE, HABITAT_LEISURE, HABITAT_LEISURE, HABITAT_ASTRO_MINING, HABITAT_REACTOR, HABITAT_RESEARCH);
 	

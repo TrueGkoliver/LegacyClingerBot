@@ -231,10 +231,22 @@ public class Sections {
 	public static final HashMap<SlotType, Integer> S_ECR1_BROADSIDE_L1 = generateSection(join(SlotType.ST_GUN_M, 2));
 	public static final HashMap<SlotType, Integer> S_ECR1_ARTILLERY_L2 = generateSection(join(SlotType.ST_GUN_L, 2));
 	public static final HashMap<SlotType, Integer> S_ECR1_FULLISADE_L2 = generateSection(join(SlotType.ST_GUN_S, 2), join(SlotType.ST_TORPEDO, 2));
-	public static final HashMap<SlotType, Integer> S_ECR1_BROADSIZE_L2 = generateSection(join(SlotType.ST_GUN_M, 2));
+	public static final HashMap<SlotType, Integer> S_ECR1_BROADSIDE_L2 = generateSection(join(SlotType.ST_GUN_M, 2));
 	public static final HashMap<SlotType, Integer> S_ECR1_ARTILLERY_L3 = generateSection(join(SlotType.ST_GUN_L, 4));
 	public static final HashMap<SlotType, Integer> S_ECR1_FULLISADE_L3 = generateSection(join(SlotType.ST_GUN_S, 4), join(SlotType.ST_TORPEDO, 4));
 	public static final HashMap<SlotType, Integer> S_ECR1_BROADSIDE_L3 = generateSection(join(SlotType.ST_GUN_M, 6));
+
+	public static final ShipSection ECR1_ARTILLERY_L1 = new ShipSection("Artillery Bow Level 1", S_ECR1_ARTILLERY_L1);
+	public static final ShipSection ECR1_FUSILLIADE_L1 = new ShipSection("Fusillade Bow Level 1", S_ECR1_FUSILLADE_L1);
+	public static final ShipSection ECR1_BROADSIDE_L1 = new ShipSection("Bow Level 1", S_ECR1_BROADSIDE_L1);
+	public static final ShipSection ECR1_ARTILLERY_L2 = new ShipSection("Artillery Bow Level 2", S_ECR1_ARTILLERY_L2);
+	public static final ShipSection ECR1_FUSILLIADE_L2 = new ShipSection("Fusillade Bow Level 2", S_ECR1_FULLISADE_L2);
+	public static final ShipSection ECR1_BROADSIDE_L2 = new ShipSection("Bow Level 2", S_ECR1_BROADSIDE_L2);
+	public static final ShipSection ECR1_ARTILLERY_L3 = new ShipSection("Artillery Bow Level 3", S_ECR1_ARTILLERY_L3);
+	public static final ShipSection ECR1_FUSILLIADE_L3 = new ShipSection("Fusillade Bow Level 3", S_ECR1_FULLISADE_L3);
+	public static final ShipSection ECR1_BROADSIDE_L3 = new ShipSection("Bow Level 3", S_ECR1_BROADSIDE_L3);
+
+
 	//Exploration Cruiser: Mid 1
 	public static final HashMap<SlotType, Integer> S_ECR2_BARRAGE_L1 = generateSection(join(SlotType.ST_GUN_L, 1), join(SlotType.ST_TORPEDO, 1));
 	public static final HashMap<SlotType, Integer> S_ECR2_ARTILLERY_L1 = generateSection(join(SlotType.ST_GUN_M, 1), join(SlotType.ST_GUN_L, 1));
@@ -253,7 +265,25 @@ public class Sections {
 	public static final HashMap<SlotType, Integer> S_ECR2_VOLLEY_L3 = generateSection(join(SlotType.ST_GUN_S, 6), join(SlotType.ST_GUN_M, 6));
 	public static final HashMap<SlotType, Integer> S_ECR2_MISSILE_L3 = generateSection(join(SlotType.ST_HANGAR, 2),join(SlotType.ST_TORPEDO, 8));
 	public static final HashMap<SlotType, Integer> S_ECR2_BROADSIDE_L3 = generateSection(join(SlotType.ST_GUN_M, 8));
-	
+
+	public static final ShipSection ECR2_BARRAGE_L1 = new ShipSection("Barrage Core Level 1", S_ECR2_BARRAGE_L1);
+	public static final ShipSection ECR2_ARTILLERY_L1 = new ShipSection("Artillery Core Level 1", S_ECR2_ARTILLERY_L1);
+	public static final ShipSection ECR2_VOLLEY_L1 = new ShipSection("Volley Core Level 1", S_ECR2_VOLLEY_L1);
+	public static final ShipSection ECR2_MISSILE_L1 = new ShipSection("Missile Core Level 1", S_ECR2_MISSILE_L1);
+	public static final ShipSection ECR2_BROADSIDE_L1 = new ShipSection("Broadside Core Level 1", S_ECR2_BROADSIDE_L1);
+
+	public static final ShipSection ECR2_BARRAGE_L2 = new ShipSection("Barrage Core Level 2", S_ECR2_BARRAGE_L2);
+	public static final ShipSection ECR2_ARTILLERY_L2 = new ShipSection("Artillery Core Level 2", S_ECR2_ARTILLERY_L2);
+	public static final ShipSection ECR2_VOLLEY_L2 = new ShipSection("Volley Core Level 2", S_ECR2_VOLLEY_L2);
+	public static final ShipSection ECR2_MISSILE_L2 = new ShipSection("Missile Core Level 2", S_ECR2_MISSILE_L2);
+	public static final ShipSection ECR2_BROADSIDE_L2 = new ShipSection("Broadside Core Level 2", S_ECR2_BROADSIDE_L2);
+
+	public static final ShipSection ECR2_BARRAGE_L3 = new ShipSection("Barrage Core Level 3", S_ECR2_BARRAGE_L3);
+	public static final ShipSection ECR2_ARTILLERY_L3 = new ShipSection("Artillery Core Level 3", S_ECR2_ARTILLERY_L3);
+	public static final ShipSection ECR2_VOLLEY_L3 = new ShipSection("Volley Core Level 3", S_ECR2_VOLLEY_L3);
+	public static final ShipSection ECR2_MISSILE_L3 = new ShipSection("Missile Core Level 3", S_ECR2_MISSILE_L3);
+	public static final ShipSection ECR2_BROADSIDE_L3 = new ShipSection("Broadside Core Level 3", S_ECR2_BROADSIDE_L3);
+
 	//Exploration Cruiser: Back
 	public static final HashMap<SlotType, Integer> S_ECR3_BROADSIDE_L1 = generateSection(join(SlotType.ST_GUN_M, 1));
 	public static final HashMap<SlotType, Integer> S_ECR3_ARTILLERY_L1 = generateSection(join(SlotType.ST_GUN_L, 1));
@@ -269,6 +299,21 @@ public class Sections {
 	public static final HashMap<SlotType, Integer> S_ECR3_ARTILLERY_L3 = generateSection(join(SlotType.ST_GUN_L, 4));
 	public static final HashMap<SlotType, Integer> S_ECR3_SPITFIRE_L3 = generateSection(join(SlotType.ST_GUN_S, 12));
 	public static final HashMap<SlotType, Integer> S_ECR3_PD_L3 = generateSection(join(SlotType.ST_PD, 12));
+
+	public static final ShipSection ECR3_BROADSIDE_L1 = new ShipSection("Broadside Stern Level 1", S_ECR3_BROADSIDE_L1);
+	public static final ShipSection ECR3_ARTILLERY_L1 = new ShipSection("Artillery Stern Level 1", S_ECR3_ARTILLERY_L1);
+	public static final ShipSection ECR3_SPITFIRE_L1 = new ShipSection("Spitfire Stern Level 1", S_ECR3_SPITFIRE_L1);
+	public static final ShipSection ECR3_PD_L1 = new ShipSection("Point Defense Stern Level 1", S_ECR3_PD_L1);
+
+	public static final ShipSection ECR3_BROADSIDE_L2 = new ShipSection("Broadside Stern Level 2", S_ECR3_BROADSIDE_L2);
+	public static final ShipSection ECR3_ARTILLERY_L2 = new ShipSection("Artillery Stern Level 2", S_ECR3_ARTILLERY_L2);
+	public static final ShipSection ECR3_SPITFIRE_L2 = new ShipSection("Spitfire Stern Level 2", S_ECR3_SPITFIRE_L2);
+	public static final ShipSection ECR3_PD_L2 = new ShipSection("Point Defense Stern Level 2", S_ECR3_PD_L2);
+
+	public static final ShipSection ECR3_BROADSIDE_L3 = new ShipSection("Broadside Stern Level 3", S_ECR3_BROADSIDE_L3);
+	public static final ShipSection ECR3_ARTILLERY_L3 = new ShipSection("Artillery Stern Level 3", S_ECR3_ARTILLERY_L3);
+	public static final ShipSection ECR3_SPITIFRE_L3 = new ShipSection("Spitfire Stern Level 3", S_ECR3_SPITFIRE_L3);
+	public static final ShipSection ECR3_PD_L3 = new ShipSection("Point Defense Stern Level 3", S_ECR3_PD_L3);
 
 	//Escort Carrier: Front
 	public static final HashMap<SlotType, Integer> S_ECA1_BROADSIDE = DoubleSet.generate(

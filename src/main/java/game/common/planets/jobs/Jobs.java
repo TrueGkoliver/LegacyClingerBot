@@ -12,4 +12,5 @@ public class Jobs {
 	public static final Job MINER = new JobResourceBase("Miner", EJobStrati.WORKER , Resources.MINERALS, 5);
 	public static final Job TECHNICIAN = new JobResourceBase("Technician", EJobStrati.WORKER , Resources.ENERGY, 5);
 
+	public static final Job ARTISAN = new JobResourceBase("Artisan", EJobStrati.SPECIALIST, Resources.ALLOYS, 5);
 }

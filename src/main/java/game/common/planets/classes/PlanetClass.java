@@ -2,7 +2,7 @@ package game.common.planets.classes;
 
 public abstract class PlanetClass implements IPlanetClass {
 	public int rarityNumber = 0;
-	public PlanetClass() {}
+	//public PlanetClass() {}
 	public String name;
 	public String getName() {
 		return name;
